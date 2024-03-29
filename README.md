@@ -75,19 +75,31 @@ II. Store Front Module: modul care consta in interfata cu care clientul interact
 Test cese-urile pentru website au fost create folosind Zephyr Squad. In urma analizei specificatiilor tehnice, designului de testare a acoperit test case-uri pentru cele 2 module: 
 
 Modulul PIM este parinte pentru 3 teste, toate cu prioritate medie:
+
 All fields can be successfully filled according to the specifications without creating user login
+
 All fields can be successfully filled according to the specifications and also create user login
+
 Add Emergency contact
 
 Modulul Store Front este parinte pentru o serie de 36 de teste, acestea avand prioritate medie:
+
 The shopping cart gives an overview of the product selected
+
 Company telephone number is displayed in the header
+
 The top menu is succesfully displayed on every page
+
 The product page contains Rating section
+
 The customer has an option to add a coupon code in the Shopping Cart
+
 The "Continue Shopping" button from the Shopping Cart links back to the homepage
+
 When a parent category is clicked the category page successfully oppens and displays all the products within that category
+
 Links the customer to the Wish List
+
 Links the customer to My Account
 
 Testele detaliate pot fi accesate aici: https://itfclasses.atlassian.net/jira/software/c/projects/DNT/boards/184?issueParent=12707%2C11690&issueType=10005
@@ -96,9 +108,13 @@ Testele detaliate pot fi accesate aici: https://itfclasses.atlassian.net/jira/so
 
 Pentru ca etapa executarii testelor sa poata inceapa, avem nevoie de prezenta unor elemente importante:
 Crearea unor preconditii aferente fiecarui test case
+
 Stabilirea prioritatilor pentru teste
+
 Legarea testelor la cerintele de business si epicuri si stabilirea de fixed version
+
 Descrierea pasilor unui test case, aici adaugand si test data, dar mai ales rezultatele testului
+
 Adaugarea unor sub-task-uri aferente test case-urilor acolo unde va fi necesar.
 
 
@@ -112,10 +128,15 @@ Pentru urmarirea in detaliu a bug-urilor poate fi accesata aici: https://itfclas
 
 Bug-uri:
 Search box does not return the products that was searched it return an Error
+
 Contact emergency can be added with an incorect type of mobile phone number
+
 The sub-categories for the parent category are not displayed when the mouse is dragged over it
+
 The parent category page did not oppens when is clicked
+
 Clicking on the second banner from the Slideshow did not oppend the product`s page, did not open any page
+
 Clicking on the second banner from the Slideshow did not oppend the product`s page, did not open any page
 
 2.5. Test Completion
