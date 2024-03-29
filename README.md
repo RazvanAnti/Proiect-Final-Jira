@@ -68,6 +68,19 @@ Conform planului de testare, dar si prin documentatia primita de la client, pute
 Ca principal epic avem:
 Store Front Module: modul care consta in interfata cu care clientul interactioneaza cu magazinul. Modulul cuprinde 7 story-uri: The header. The top menu. Slideshow. Footer. Product pages. Product compare. Shopping cart page.
 
+Conditii de testare:
+1. Testarea directionarii clientului catre sectiunea de Shopping Cart - pentru o rata de conversie mai buna
+2. Directionarea clientului catre Checkout - pentru a scurta customer jurney
+3. Top Menu este afisat pe fiecare pagina - pentru a avea un UI  intuitiv si rapid
+4. Pagina produsului contine sectiubea de detalii despre produs - pentru a creste interesul si dorinta de cumparare
+5. Pagina de produs afiseaza sectiunea de rating - pentru a spori gradul de incredere
+6. Pagina produsului contine si afiseaza comparatia cu alte produse - pentru a oferi clientului posibilitatea unei achizitii informate si orientate spre interese
+7. Produsele dispun de optiunea de Share - pentru a spori rata de conversie
+8. Produsele au fost adaugate in cos din sectiunea de comparatie - pentru a mari pool-ul de potentiale produse cumparate
+9. Sectiunea cosului de cumparaturi ofera un rezumat al produsului selectat - pentru a nu forta clientul sa paraseasca sectiunea de cumparare
+10. Clientul are optiunea adaugarii unui cupon in sectiunea de shopping cart - pentru a incuraja achizitionarea mai multor produse, a oferi o experienta de achizitie completa pe care o poate gasi la competitie. 
+
+
 # 2.2. Test Design
 Test case-urile pentru website au fost create folosind Zephyr Squad. In urma analizei specificatiilor tehnice, designului de testare a acoperit test case-uri pentru modulul Store Front: 
 
