@@ -1,63 +1,131 @@
 # Proiect-Final-Jira
 
-The scope of the final project for ITF Manual Testing Course is to use all gained knowledge throught the course and apply them in practice, using a live application.
+Scopul proiectului al cursului de Testare Manuala si Automata este utilizarea tuturor cunostintelor tehnice dobandite de-a lungul cursului si utilizarea lor in cazuri practice, intalnite in activitatea de zi cu zi.
 
-Application under test:
+Site testat: https://docs.opencart.com/en-gb/introduction/
 
-API Documentation:
+Documentatia API: https://docs.opencart.com/en-gb/system/users/api/
 
-The final project will be split into 2 sections: Testing section and SQL section.
+Proiectul este impartit in 2 segmente, dintre care sectiunea planul de testare, obiective si aspecte de business/management, dar si afisarea, respectiv analizarea tehnicilor de testare din Jira.
 
-Tools used:
+Tehnologii utilizate: Jira, Zephyr. Pentru utilizarea platformei Jira s-a folosit contul ItFactory, cont la care s-a creat proiectul cu numele Anti Razvan-Ionut TMTA13. De asemenea, a fost necesara si instalarea plug-in-ului Zephyr prin logarea ca Administrator, accesarea meniului Jira si selectarea optiunii Apps, Find New Apps, s-a cautat Zephye for Jira si s-a accesat rezultatul cautarii. Apoi s-a instalat plug-in-ul. De asemenea, proiectul in cauza s-a folosit si de documentatia API a website-ului, link-ul fiind furnizat mai sus.             
 
-Functional specifications
--> enter here the functional specifications created in JIRA
+Specificatii functionale:
+-> Pentru a putea crea si gestiona proiectul in cauza, s-a apela la progamul de tracking management Jira, adaugand plug-in-ul Zephyr in vederea unei utilizari targetate pe testare.
+Ca specificatii funtionale in Jira, s-au utilizat urmatoarele: Issue tracking, workflow-uri costumizabile, project management, custom fields, dashboard si rapoarte.
 
-1 Testing section
-1.1 Test Planning
-The Test Plan is designed to describe all details of testing for the X module from the OrangeHRM application.
+1. Sectiunea de testare, aspecte de business si management:
 
-The plan identifies the items to be tested, the features to be tested, the types of testing to be performed, the personnel responsible for testing, the resources and schedule required to complete testing, and the risks associated with the plan
+1.1 Planul de testare:
+Planul de testare a fost creat pentru a putea detalia testarea principalelor si celor mai importante functionalitati ale site-ului Open cart.
 
-1.1.1 Roles assigned to the project and persons allocated
+Planul identifica sectiunile si itemii de testare, functionalitatile de tipurile de teste, personalul, resursele si timpul implicate, incluzand si riscul asociat cu planul in cauza. Scopul documentului este deci acoperirea intregului plan de testare pentru website-ul OpenCart. Asadar pe langa cele mentionate mai sus, mentionam din nou planul, analiza, design-ul, implementarea, executia, finalizarea, sesiunile de monitorizare si control. Merita amintite si criteriile de intrare si iesire.
 
-1.1.2 Entry criteria defined
-1.1.3 Exit criteria defined
+1.1.1 Impartirea rolurilor si responsabilitatilor: 
+Anti Razvan-Ionut va testa: "Admin Interface", "Catalog"
+Adam Eduard: "Extensions", "Sales"
+Popa Diana-Maria: "Marketing", "System"
+Damatarc MArian: "Tools", "Reports".
+
+1.1.2 Definirea criteriilor de intrare:
+- Trecerea tuturor smoke testurilor (acest simplu test de testare ne va putea ajuta la stabilirea starii generale a site-ului in vederea conturarii unui plan agile de testare).
+- Definirea cerintelor software minime:
+a. Incarcarea website-ului pe un server web. In cazul in care clientul nu dispune deja de un domeniu sau cont de web hosting, acestea pot fi achizitionate la preturi accesibile.
+b. Se recomanda achizitionarea serverului Apache. Va fi nevoie de o baza de date care sa suporte MySQLi, PDO sau PostSQL, desi este recomandat MySQLi.
+c. Urmatoaerle librarii PHP trebuiesc instalate in configuratia PHP: PHP 8.0 sau o versiune mai noua, Curl, GD Library, Iconv, Mbstring, Open SSL, Encrypt, ZipArchive, Zlib.
+d. Urmatoarele setari trebuie activate: file_uploads, magic_quotes_gpc, register_globals, session_auto_start.
+- mediul de testare este activ si functional.
+
+1.1.3 Definirea criteriilor de iesire:
+- 75% dintre teste vor trece, avand statusul "Passed"
+- Nu vor exista probleme critice in niciunul dintre modulele care are statusul Open
+- testele ulterioare sunt 100% "Passed" (trebuind sa ne asiguram ca testele introduse anterior nu vor da peste cap functionalitatile site-ului).
+
 1.1.4 Test scope
-Tests in scope:
-Tests not in scope:
-1.1.5 Risks detected
-Project risks:
-Product risks:
-1.1.6 Evaluating entry criteria
-The entry criterias defined in the Test Planning phase have been achieved and the test process can continue.
+Teste în domeniul de aplicare:
+Includem aici modulele asupra carora s-a agreat aplicarea planului si strategiei de testare: Admin Interface, Catalog, Extensions, Sales, Marketing, System, Tools, Reports.
 
-1.2 Test Monitoring and Control
-It will be done by generating periodic reports that reflect the current status of the test.
+Teste in afara domeniului de aplicare:
+Amintim testele non-functionale precum cele de stres, performanta, dar si alte teste in afara scopului care vor fi descoperite ulterior pe derularea proiectului.
+Nu va axista QA support pentru versiunea de mobil a site-ului, respectiv aplicatia, testarea rezumandu-se doar la pagina web a clientului.
+Testarea automata este de asemenea in afara domeniului de aplicare.
 
-1.3 Test Analysis
-The testing process will be executed based on the above requirements for the Dependents module. The following test conditions were found:
+1.1.5 Amintim riscurile asociate, acestea fiind de 2 feluri:
+Riscurile de proiect: Resursele insuficiente se refera fie la lipsa de personal si de timp in vederea realizarii testarii in profunzime/tuturor defectelor. Stabilirea unui program neclar sau instabil reprezinta un risc asociat tehnicii agile. Un risc probabil mai ales in cazul unor termene limita stranse, care pot veni in completarea la numeroase schimbari in cerinte (testare incompleta sau chiar superficiala). Problemele de comunicare sau posibila incompatibilitate de a exprima clar notiuni de natura tehnica, importante de altfel pentru serviciile clientului. Competentele reduse ale personalului, un risc posibil mai ales in cazul in care se descopera o multitudine de defecte si bug-uri complexe.
+Riscurile de produs: Posibilitatea existentei unor defecte nedeclarate anterior: mai exact neidentificarea unor defecte cu un grad sporit de importanta, defecte care pot impacta consistent nivelul de calitate al produsului. Interfata de utilizator necorespunzatoare: Ui contraintuitiv. Performantele slabe in ceea ce priveste timpii de incarcare sa raspunsurile foarte intarziate la comenzi. Riscurile de securitate vor aparea mai ales atunci cand atacurile cibernetice vizeaza website-ul clientului. Fiabilitatea redusa a aplicatiei, riscul de crush frecvent.
 
+1.1.6 Evaluarea criteriilor de intrare:
+In urma implementarii planului de testare, criteriile de intrare au fost atinse, iar procesul poate continua, el putandu-se modifica datorita abordarii de tip agile.
+
+1.2 Testele de monitorizare si control
+Monitorizarea si controlul se va realiza generand rapoarte periodice care sa coincida cu statusul curent al testelor. Astfel, Se vor face comparatii cantitative si masurabile ale planului original cu progresul testarii, se va verifica si analiza status report-ul, adaugarea de teste aditionale unde va fi necesar (conform evolutiei proiectului si cerintelor ulterioare ale clientului, luand bineinteles in calcul renegocierea timpului de livrare si a pretului proiectului).
+
+Analiza tehnicilor de testare - Jira
+2.1. Test Analysis
+Conform planului de testare, dar si prin documentatia primita de la client, putem demara elaborarea si testarea cerintelor de business, specificatiile de design, in vederea imbunatatirii loc, inlaturarea generalitatilor si ambiguitatilor, contradictii. Concret, putem considera ca ne aflam intr-o etapa de early testing, in care se discuta cu specialistii care sunt modulele cu impact cel mai mare asupra clientului.
+
+Ca principale epicuri avem:
+I. PIM Module: modul de baza prin care se gestioneaza toate informatiile relevante cu privire la angajati, incluzand informatii cu caracter personal, calificari profesionale, experienta de munca, dar si informatii care fac referire la actualul loc de munca.Aceste tipuri de informatii sunt preluate si corelate de toate celelalte module, eliminand totusi informatii redundante.
+Epicul modulului PIM va cuprinde un total de 3 cerinte de business sau story-uri: Configuration. Employee List. Add employee.
+
+II. Store Front Module: modul care consta in interfata cu care clientul interactioneaza cu magazinul. Modulul cuprinde 7 story-uri: The header. The top menu. Slideshow. Footer. Product pages. Product compare. Shopping cart page.
 Enter test conditions here
-1.4 Test Design
-Functional test cases were created in Zephyr Squad. Based on the analysis of the specifications, the test design techniques used for generating test cases are:
 
-Test cases: -> enter here test cases or at least the titles
+------------------------------------------------------------------------------------
+2.2 Test Design
+Test cese-urile pentru website au fost create folosind Zephyr Squad. In urma analizei specificatiilor tehnice, designului de testare a acoperit test case-uri pentru cele 2 module: 
 
-The test cases with steps can be viewed here: test_cases.pdf
+Modulul PIM este parinte pentru 3 teste, toate cu prioritate medie:
+All fields can be successfully filled according to the specifications without creating user login
+All fields can be successfully filled according to the specifications and also create user login
+Add Emergency contact
 
-1.5 Test Implementation
-The following elements are needed to be ready before the test execution phase begins:
+Modulul Store Front este parinte pentru o serie de 36 de teste, acestea avand prioritate medie:
+The shopping cart gives an overview of the product selected
+Company telephone number is displayed in the header
+The top menu is succesfully displayed on every page
+The product page contains Rating section
+The customer has an option to add a coupon code in the Shopping Cart
+The "Continue Shopping" button from the Shopping Cart links back to the homepage
+When a parent category is clicked the category page successfully oppens and displays all the products within that category
+Links the customer to the Wish List
+Links the customer to My Account
 
-enter here what needs to be ready for the test execution to begin
-1.6 Test Execution
-Test cases are executed on the created test Cycle summary: cycle_summary_execution.pdf
-Bugs have been created based on the failed tests. The complete bug reports can be found here: created_bugs.pdf
-enter here bug titles
-1.7 Test Completion
-Exit criteria was evaluated and passed
-The traceability matrix was generated and can be found here: Traceability_matrix.csv
-Test execution chart was generated, the final report shows.... -> describe the final report
--> enter here test execution report/chart
+Testele detaliate pot fi accesate aici: https://itfclasses.atlassian.net/jira/software/c/projects/DNT/boards/184?issueParent=12707%2C11690&issueType=10005
 
-2 SQL section
+2.3 Test Implementation
+
+Pentru ca etapa executarii testelor sa poata inceapa, avem nevoie de prezenta unor elemente importante:
+Crearea unor preconditii aferente fiecarui test case
+Stabilirea prioritatilor pentru teste
+Legarea testelor la cerintele de business si epicuri si stabilirea de fixed version
+Descrierea pasilor unui test case, aici adaugand si test data, dar mai ales rezultatele testului
+Adaugarea unor sub-task-uri aferente test case-urilor acolo unde va fi necesar.
+
+
+2.4 Test Execution
+
+Test case-urile au fost executate prin Zephyr Squad si pot fi accesate din sub meniul de Cycle Summary: https://itfclasses.atlassian.net/projects/DNT?selectedItem=com.thed.zephyr.je__cycle-summary
+
+Bug-urile generate in urma executarii testelor: https://itfclasses.atlassian.net/jira/software/c/projects/DNT/boards/184?issueParent=12707%2C11690&issueType=10004
+
+Pentru urmarirea in detaliu a bug-urilor poate fi accesata aici: https://itfclasses.atlassian.net/projects/DNT?selectedItem=com.thed.zephyr.je__cycle-summary
+
+Bug-uri:
+Search box does not return the products that was searched it return an Error
+Contact emergency can be added with an incorect type of mobile phone number
+The sub-categories for the parent category are not displayed when the mouse is dragged over it
+The parent category page did not oppens when is clicked
+Clicking on the second banner from the Slideshow did not oppend the product`s page, did not open any page
+Clicking on the second banner from the Slideshow did not oppend the product`s page, did not open any page
+
+2.5 Test Completion
+
+Criteriile de iesire au fost evaluate si adaptate in functie de modificarile ulterioare, astfel incat, estimarile au suferit modificari si limite de timp si accesabilitate. Testele create ulterior au statusul Passed, iar defectele critice au fost inchise si documentate.
+
+Matricea trasabiliatii a fost generata si se poate gasi aici: https://itfclasses.atlassian.net/projects/DNT?selectedItem=com.thed.zephyr.je__traceability-project-level
+
+Test execution chart a fost generat pentru versiunea 3.0.2.0, iar acesta indica un pass rate de 75% (27 teste) dintr-un total de 36 de teste. Dintre acestea, 9 au statusul Fail.
+
+![image](https://github.com/RazvanAnti/Proiect-Final-Jira/assets/165046399/92b0e0df-ec0d-478c-9c3b-ee9b693acf27)
+
