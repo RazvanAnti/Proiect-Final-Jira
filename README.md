@@ -65,22 +65,12 @@ Monitorizarea si controlul se va realiza generand rapoarte periodice care sa coi
 # 2.1. Test Analysis
 Conform planului de testare, dar si prin documentatia primita de la client, putem demara elaborarea si testarea cerintelor de business, specificatiile de design, in vederea imbunatatirii loc, inlaturarea generalitatilor si ambiguitatilor, contradictii. Concret, putem considera ca ne aflam intr-o etapa de early testing, in care se discuta cu specialistii care sunt modulele cu impact cel mai mare asupra clientului.
 
-Ca principale epicuri avem:
-I. PIM Module: modul de baza prin care se gestioneaza toate informatiile relevante cu privire la angajati, incluzand informatii cu caracter personal, calificari profesionale, experienta de munca, dar si informatii care fac referire la actualul loc de munca.Aceste tipuri de informatii sunt preluate si corelate de toate celelalte module, eliminand totusi informatii redundante.
-Epicul modulului PIM va cuprinde un total de 3 cerinte de business sau story-uri: Configuration. Employee List. Add employee.
-
-II. Store Front Module: modul care consta in interfata cu care clientul interactioneaza cu magazinul. Modulul cuprinde 7 story-uri: The header. The top menu. Slideshow. Footer. Product pages. Product compare. Shopping cart page.
+Ca principal epic avem:
+Store Front Module: modul care consta in interfata cu care clientul interactioneaza cu magazinul. Modulul cuprinde 7 story-uri: The header. The top menu. Slideshow. Footer. Product pages. Product compare. Shopping cart page.
 
 # 2.2. Test Design
-Test case-urile pentru website au fost create folosind Zephyr Squad. In urma analizei specificatiilor tehnice, designului de testare a acoperit test case-uri pentru cele 2 module: 
+Test case-urile pentru website au fost create folosind Zephyr Squad. In urma analizei specificatiilor tehnice, designului de testare a acoperit test case-uri pentru modulul Store Front: 
 
-Modulul PIM este parinte pentru 3 teste, toate cu prioritate medie:
-
-All fields can be successfully filled according to the specifications without creating user login
-
-All fields can be successfully filled according to the specifications and also create user login
-
-Add Emergency contact
 
 Modulul Store Front este parinte pentru o serie de 36 de teste, acestea avand prioritate medie:
 
@@ -102,7 +92,7 @@ Links the customer to the Wish List
 
 Links the customer to My Account
 
-Testele detaliate pot fi accesate aici: https://itfclasses.atlassian.net/jira/software/c/projects/DNT/boards/184?issueParent=12707%2C11690&issueType=10005
+Testele detaliate pot fi accesate aici: https://itfclasses.atlassian.net/jira/software/c/projects/DNT/boards/184?issueParent=12707&issueType=10005
 
  # 2.3. Test Implementation
 
@@ -122,9 +112,9 @@ Adaugarea unor sub-task-uri aferente test case-urilor acolo unde va fi necesar.
 
 Test case-urile au fost executate prin Zephyr Squad si pot fi accesate din sub meniul de Cycle Summary: https://itfclasses.atlassian.net/projects/DNT?selectedItem=com.thed.zephyr.je__cycle-summary
 
-Bug-urile generate in urma executarii testelor: https://itfclasses.atlassian.net/jira/software/c/projects/DNT/boards/184?issueParent=12707%2C11690&issueType=10004
+Bug-urile generate in urma executarii testelor: https://itfclasses.atlassian.net/jira/software/c/projects/DNT/boards/184?issueParent=12707&issueType=10004
 
-Pentru urmarirea in detaliu a bug-urilor poate fi accesata aici: https://itfclasses.atlassian.net/projects/DNT?selectedItem=com.thed.zephyr.je__cycle-summary
+Urmarirea in detaliu a bug-urilor poate fi accesata aici: https://itfclasses.atlassian.net/projects/DNT?selectedItem=com.thed.zephyr.je__cycle-summary
 
 Bug-uri:
 Search box does not return the products that was searched it return an Error
