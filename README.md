@@ -182,9 +182,5 @@ Totuși, există bug-uri care îngreunează experiența de utilizare a clientulu
 
 Impactul cel mai redus s-a regăsit la aspecte precum imagini poziționate incorect, detalii suplimentare despre branch-ul unor produse. Regăsim 3 bug-uri cu severitate redusă, toate având prioritate redusă.
 
-
-![image](https://github.com/RazvanAnti/Proiect-Final-Jira/assets/165046399/ab068714-1cc3-4f80-b754-c0293750ec1f)
-
-
 ![image](https://github.com/RazvanAnti/Proiect-Final-Jira/assets/165046399/92b0e0df-ec0d-478c-9c3b-ee9b693acf27)
 
