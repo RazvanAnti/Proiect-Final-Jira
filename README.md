@@ -8,7 +8,7 @@ Documentatia API: https://docs.opencart.com/en-gb/system/users/api/
 
 Proiectul este impartit in 2 segmente, dintre care sectiunea planul de testare, obiective si aspecte de business/management, dar si afisarea, respectiv analizarea tehnicilor de testare din Jira.
 
-Tehnologii utilizate: Jira, Zephyr. Pentru utilizarea platformei Jira s-a folosit contul ItFactory, cont la care s-a creat proiectul cu numele Anti Razvan-Ionut TMTA13. De asemenea, a fost necesara si instalarea plug-in-ului Zephyr prin logarea ca Administrator, accesarea meniului Jira si selectarea optiunii Apps, Find New Apps, s-a cautat Zephye for Jira si s-a accesat rezultatul cautarii. Apoi s-a instalat plug-in-ul. De asemenea, proiectul in cauza s-a folosit si de documentatia API a website-ului, link-ul fiind furnizat mai sus.             
+Tehnologii utilizate: Jira, Zephyr. Pentru utilizarea platformei Jira s-a folosit contul ItFactory, cont la care s-a creat proiectul cu numele Anti Razvan-Ionut TMTA13. De asemenea, a fost necesara si instalarea plug-in-ului Zephyr prin logarea ca Administrator, accesarea meniului Jira si selectarea optiunii Apps, Find New Apps, s-a cautat Zephyr for Jira si s-a accesat rezultatul cautarii. Apoi s-a instalat plug-in-ul. De asemenea, proiectul in cauza s-a folosit si de documentatia API a website-ului, link-ul fiind furnizat mai sus.             
 
 Specificatii functionale:
 -> Pentru a putea crea si gestiona proiectul in cauza, s-a apela la progamul de tracking management Jira, adaugand plug-in-ul Zephyr in vederea unei utilizari targetate pe testare.
