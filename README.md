@@ -170,7 +170,21 @@ Story: Shopping Cart Page --> Links the customer to the Shopping Cart, Links the
 
 36 te teste scrise, din care 36 de teste executate.
 
-10 bugs detectate.
+10 bugs detectate:
+
+ 0 bug-uri prioritate ridicată, 6 medie, 4 redusă
+
+ 0 severitate ridicată, 7 medie, 3 redusă
+
+In urma analizei defectelor, nu există bug-uri care pot duce la riscul unui impact ridicat în ceea ce privește imaginea de brand, decizia de cumpărare sau pierderea de clienți.
+
+Totuși, există bug-uri care îngreunează experiența de utilizare a clientului final, interacțiunea cu produsele. Impact de natură UI/UX conține 7 bug-uri cu severitate medie, 6 dintre acestea având un grad mediu de prioritate, 1 prioritate redusă.
+
+Impactul cel mai redus s-a regăsit la aspecte precum imagini poziționate incorect, detalii suplimentare despre branch-ul unor produse. Regăsim 3 bug-uri cu severitate redusă, toate având prioritate redusă.
+
+
+![image](https://github.com/RazvanAnti/Proiect-Final-Jira/assets/165046399/ab068714-1cc3-4f80-b754-c0293750ec1f)
+
 
 ![image](https://github.com/RazvanAnti/Proiect-Final-Jira/assets/165046399/92b0e0df-ec0d-478c-9c3b-ee9b693acf27)
 
