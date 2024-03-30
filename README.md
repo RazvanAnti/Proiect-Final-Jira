@@ -162,5 +162,11 @@ Matricea trasabiliatii a fost generata si se poate gasi aici: https://itfclasses
 
 Test execution chart a fost generat pentru versiunea 3.0.2.0, iar acesta indica un pass rate de 75% (27 teste) dintr-un total de 36 de teste. Dintre acestea, 9 au statusul Fail.
 
+7 Story-uri in total, asociate cu 21 de subtask-uri. 2 story-uri asociate cu 4 test case-uri 
+Story: Product Pages --> The product page contains Product details section, The product page contains Description tab section.
+Story: Shopping Cart Page --> Links the customer to the Shopping Cart, Links the customer to the Checkout.
+36 te teste scrise, din care 36 de teste executate.
+10 bugs detectate.
+
 ![image](https://github.com/RazvanAnti/Proiect-Final-Jira/assets/165046399/92b0e0df-ec0d-478c-9c3b-ee9b693acf27)
 
