@@ -80,6 +80,7 @@ Conform planului de testare, dar si prin documentatia primita de la client, pute
 Ca principal epic avem:
 Store Front Module: modul care consta in interfata cu care clientul interactioneaza cu magazinul. Modulul cuprinde 7 story-uri: The header. The top menu. Slideshow. Footer. Product pages. Product compare. Shopping cart page.
 
+Story 'Shopping Cart PAge'
 ![image](https://github.com/RazvanAnti/Proiect-Final-Jira/assets/165046399/113f1570-24f9-4080-b20f-8445978c864b)
 
 Conditii de testare:
