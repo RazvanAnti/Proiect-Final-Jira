@@ -158,7 +158,10 @@ Clicking on the second banner from the Slideshow did not oppend the product`s pa
 
 Criteriile de iesire au fost evaluate si adaptate in functie de modificarile ulterioare, astfel incat, estimarile au suferit modificari si limite de timp si accesabilitate. Testele create ulterior au statusul Passed, iar defectele critice au fost inchise si documentate.
 
-Matricea trasabiliatii a fost generata si se poate gasi aici: https://itfclasses.atlassian.net/projects/DNT?selectedItem=com.thed.zephyr.je__traceability-project-level
+Matricea trasabiliatii a fost generata:
+
+![image](https://github.com/RazvanAnti/Proiect-Final-Jira/assets/165046399/5769a79b-b49a-449f-a199-623bbed408e2)
+
 
 Test execution chart a fost generat pentru versiunea 3.0.2.0, iar acesta indica un pass rate de 75% (27 teste) dintr-un total de 36 de teste. Dintre acestea, 9 au statusul Fail.
 
