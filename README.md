@@ -170,22 +170,22 @@ Bugs:
 
 Criteriile de iesire au fost evaluate si adaptate in functie de modificarile ulterioare, astfel incat, estimarile au suferit modificari si limite de timp si accesabilitate. Testele create ulterior au statusul Passed, iar defectele critice au fost inchise si documentate.
 
-Matricea trasabiliatii a fost generata:
+* Matricea trasabiliatii a fost generata:
 
 ![image](https://github.com/RazvanAnti/Proiect-Final-Jira/assets/165046399/5769a79b-b49a-449f-a199-623bbed408e2)
 
 
-Test execution chart a fost generat pentru versiunea 3.0.2.0, iar acesta indica un pass rate de 75% (27 teste) dintr-un total de 36 de teste. Dintre acestea, 9 au statusul Fail.
+* Test execution chart a fost generat pentru versiunea 3.0.2.0, iar acesta indica un pass rate de 75% (27 teste) dintr-un total de 36 de teste. Dintre acestea, 9 au statusul Fail.
 
-7 Story-uri in total, asociate cu 21 de subtask-uri. 2 story-uri asociate cu 4 test case-uri 
+* 7 Story-uri in total, asociate cu 21 de subtask-uri. 2 story-uri asociate cu 4 test case-uri 
 
 Story: Product Pages --> The product page contains Product details section, The product page contains Description tab section.
 
 Story: Shopping Cart Page --> Links the customer to the Shopping Cart, Links the customer to the Checkout.
 
-36 de teste scrise, din care 36 de teste executate.
+* 36 de teste scrise, din care 36 de teste executate.
 
-10 bugs detectate:
+* 10 bugs detectate:
 
  0 bug-uri prioritate ridicată, 6 medie, 4 redusă
 
