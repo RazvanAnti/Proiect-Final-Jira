@@ -120,7 +120,7 @@ Links the customer to the Wish List
 
 Links the customer to My Account
 
-Testele detaliate pot fi accesate [aici](https://<razvananti>.github.io/<reponame>/<path/to/file.pdf>)
+Testele detaliate pot fi accesate [aici](Test cases.pdf)
 
  # 2.3. Test Implementation
 
@@ -174,7 +174,7 @@ Story: Product Pages --> The product page contains Product details section, The 
 
 Story: Shopping Cart Page --> Links the customer to the Shopping Cart, Links the customer to the Checkout.
 
-36 te teste scrise, din care 36 de teste executate.
+36 de teste scrise, din care 36 de teste executate.
 
 10 bugs detectate:
 
