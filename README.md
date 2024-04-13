@@ -140,7 +140,7 @@ Adaugarea unor sub-task-uri aferente test case-urilor acolo unde va fi necesar.
 
 Test case-urile au fost executate prin Zephyr Squad si pot fi analizate: [Test Cases](https://github.com/RazvanAnti/Proiect-Final-Jira/blob/aefdd2dda119b72bb1a4c18d35c21fa235b2ad76/Test%20cases.pdf)
 
-Bug-urile generate in urma executarii testelor: https://itfclasses.atlassian.net/jira/software/c/projects/DNT/boards/184?issueParent=12707&issueType=10004
+Bug-urile generate in urma executarii testelor [aici](
 
 Urmarirea in detaliu a bug-urilor poate fi accesata aici: https://itfclasses.atlassian.net/projects/DNT?selectedItem=com.thed.zephyr.je__cycle-summary
 
