@@ -14,7 +14,7 @@ Specificatii functionale:
 -> Pentru a putea crea si gestiona proiectul in cauza, s-a apela la progamul de tracking management Jira, adaugand plug-in-ul Zephyr in vederea unei utilizari targetate pe testare.
 Ca specificatii funtionale in Jira, s-au utilizat urmatoarele: Issue tracking, workflow-uri costumizabile, project management, custom fields, dashboard si rapoarte.
 
-# 1. Sectiunea de testare, aspecte de business si management:
+# 1. Sectiunea de testare, aspecte de business si management
 
 * 1.1. Planul de testare:
 Planul de testare a fost creat pentru a putea detalia testarea principalelor si celor mai importante functionalitati ale site-ului Open cart.
@@ -32,7 +32,7 @@ Planul identifica sectiunile si itemii de testare, functionalitatile de tipurile
 | Damatarc Marian     | "Tools", "Reports"          |
 
 
-# 2. Definirea criteriilor de intrare:
+# 2. Definirea criteriilor de intrare
 - Trecerea tuturor smoke testurilor (acest simplu test de testare ne va putea ajuta la stabilirea starii generale a site-ului in vederea conturarii unui plan agile de testare).
 - Definirea cerintelor software minime:
 a. Incarcarea website-ului pe un server web. In cazul in care clientul nu dispune deja de un domeniu sau cont de web hosting, acestea pot fi achizitionate la preturi accesibile.
@@ -41,7 +41,7 @@ c. Urmatoaerle librarii PHP trebuiesc instalate in configuratia PHP: PHP 8.0 sau
 d. Urmatoarele setari trebuie activate: file_uploads, magic_quotes_gpc, register_globals, session_auto_start.
 - mediul de testare este activ si functional.
 
-# 3. Definirea criteriilor de iesire:
+# 3. Definirea criteriilor de iesire
 - 75% dintre teste vor trece, avand statusul "Passed"
 - Nu vor exista probleme critice in niciunul dintre modulele care are statusul Open
 - testele ulterioare sunt 100% "Passed" (trebuind sa ne asiguram ca testele introduse anterior nu vor da peste cap functionalitatile site-ului).
@@ -55,7 +55,7 @@ Amintim testele non-functionale precum cele de stres, performanta, dar si alte t
 Nu va axista QA support pentru versiunea de mobil a site-ului, respectiv aplicatia, testarea rezumandu-se doar la pagina web a clientului.
 Testarea automata este de asemenea in afara domeniului de aplicare.
 
-# 5. Riscurile asociate:
+# 5. Riscurile asociate
 Riscurile de proiect: Resursele insuficiente se refera fie la lipsa de personal si de timp in vederea realizarii testarii in profunzime/tuturor defectelor. Stabilirea unui program neclar sau instabil reprezinta un risc asociat tehnicii agile. Un risc probabil mai ales in cazul unor termene limita stranse, care pot veni in completarea la numeroase schimbari in cerinte (testare incompleta sau chiar superficiala). Problemele de comunicare sau posibila incompatibilitate de a exprima clar notiuni de natura tehnica, importante de altfel pentru serviciile clientului. Competentele reduse ale personalului, un risc posibil mai ales in cazul in care se descopera o multitudine de defecte si bug-uri complexe.
 
 Specific proiectului: 
@@ -71,7 +71,7 @@ O rată mare de abandon a site-ului din cauza unui timp de încărcare prelungit
 Implementarea unei funcționalități care nu corespunde cu ceea ce și-a imaginat clientul din cauza unei comunicări neclare.
 Un serviciu de livrare întârzie livrarea comenzilor din cauza unor probleme tehnice la nivelul infrastructurii lor.
 
-# 6. Evaluarea criteriilor de intrare:
+# 6. Evaluarea criteriilor de intrare
 In urma implementarii planului de testare, criteriile de intrare au fost atinse, iar procesul poate continua, el putandu-se modifica datorita abordarii de tip agile.
 
 # 7 Testele de monitorizare si control
