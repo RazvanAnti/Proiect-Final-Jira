@@ -117,7 +117,7 @@ Links the customer to the Wish List
 
 Links the customer to My Account
 
-Testele detaliate pot fi accesate aici: https://itfclasses.atlassian.net/jira/software/c/projects/DNT/boards/184?issueParent=12707&issueType=10005
+Testele detaliate pot fi accesate [aici](https://itfclasses.atlassian.net/jira/software/c/projects/DNT/boards/184?issueParent=12707&issueType=10005)
 
  # 2.3. Test Implementation
 
