@@ -21,11 +21,8 @@ Planul de testare a fost creat pentru a putea detalia testarea principalelor si 
 
 Planul identifica sectiunile si itemii de testare, functionalitatile de tipurile de teste, personalul, resursele si timpul implicate, incluzand si riscul asociat cu planul in cauza. Scopul documentului este deci acoperirea intregului plan de testare pentru website-ul OpenCart. Asadar pe langa cele mentionate mai sus, mentionam din nou planul, analiza, design-ul, implementarea, executia, finalizarea, sesiunile de monitorizare si control. Merita amintite si criteriile de intrare si iesire.
 
-   - 1.1.1. Impartirea rolurilor si responsabilitatilor: 
-Anti Razvan-Ionut va testa: "Admin Interface", "Catalog"
-Adam Eduard: "Extensions", "Sales"
-Popa Diana-Maria: "Marketing", "System"
-Damatarc MArian: "Tools", "Reports".
+- Impartirea rolurilor si responsabilitatilor: 
+
 
 | Nume tester         | Responsabilitati            |
 | -------------       | ----------------------------|
