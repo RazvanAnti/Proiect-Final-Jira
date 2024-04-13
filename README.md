@@ -27,6 +27,14 @@ Adam Eduard: "Extensions", "Sales"
 Popa Diana-Maria: "Marketing", "System"
 Damatarc MArian: "Tools", "Reports".
 
+| Nume tester         | Responsabilitati            |
+| -------------       | ----------------------------|
+| Anti Razvan-Ionut   | "Admin Interface", "Catalog"|
+| Adam Eduard-Marius  | "Extensions", "Sales"       |
+| Popa Diana-Maria    | "Marketing", "System"       |
+| Damatarc Marian     | "Tools", "Reports"          |
+
+
 # 1.1.2. Definirea criteriilor de intrare:
 - Trecerea tuturor smoke testurilor (acest simplu test de testare ne va putea ajuta la stabilirea starii generale a site-ului in vederea conturarii unui plan agile de testare).
 - Definirea cerintelor software minime:
