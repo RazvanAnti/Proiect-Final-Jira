@@ -120,7 +120,7 @@ Links the customer to the Wish List
 
 Links the customer to My Account
 
-Testele detaliate pot fi accesate in sectiunea de [aici](https://github.com/RazvanAnti/Proiect-Final-Jira/blob/aefdd2dda119b72bb1a4c18d35c21fa235b2ad76/Test%20cases.pdf)
+Epicul, story-urile, test case-urile, bug-urile pot fi accesate in sectiunea de [aici](https://github.com/RazvanAnti/Proiect-Final-Jira/blob/aefdd2dda119b72bb1a4c18d35c21fa235b2ad76/Test%20cases.pdf)
 
  # 2.3. Test Implementation
 
@@ -138,11 +138,9 @@ Adaugarea unor sub-task-uri aferente test case-urilor acolo unde va fi necesar.
 
 # 2.4. Test Execution
 
-Test case-urile au fost executate prin Zephyr Squad si pot fi analizate: [Test Cases](https://github.com/RazvanAnti/Proiect-Final-Jira/blob/aefdd2dda119b72bb1a4c18d35c21fa235b2ad76/Test%20cases.pdf)
+Test case-urile au fost executate prin Zephyr Squad si pot fi analizate: [Test Cases](https://github.com/RazvanAnti/Proiect-Final-Jira/blob/main/Test%20cases.pdf)
 
-Bug-urile generate in urma executarii testelor [aici](
-
-Urmarirea in detaliu a bug-urilor poate fi accesata aici: https://itfclasses.atlassian.net/projects/DNT?selectedItem=com.thed.zephyr.je__cycle-summary
+Bug-urile generate in urma executarii testelor: [Bugs](https://github.com/RazvanAnti/Proiect-Final-Jira/blob/main/Bugs.pdf)
 
 Bug-uri:
 Search box does not return the products that was searched it return an Error
