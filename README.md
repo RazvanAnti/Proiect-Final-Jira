@@ -2,7 +2,7 @@
 
 Scopul proiectului al cursului de Testare Manuala si Automata este utilizarea tuturor cunostintelor tehnice dobandite de-a lungul cursului si utilizarea lor in cazuri practice, intalnite in activitatea de zi cu zi.
 
-Site testat: [https://docs.opencart.com/en-gb/introduction/]
+Site testat: [OpenCart](https://docs.opencart.com/en-gb/introduction/)
 
 Documentatia API: https://docs.opencart.com/en-gb/system/users/api/
 
