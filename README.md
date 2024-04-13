@@ -6,7 +6,7 @@
 
 * Documentatia API: [OpenCart.API](https://docs.opencart.com/en-gb/system/users/api/)
 
-Proiectul prezinta 12 puncte principale, acestea facand referire la planul de testare, obiective si aspecte de business/management, dar si afisarea, respectiv analizarea tehnicilor de testare, bug-urilor, story-urilor din Jira.
+Proiectul prezinta 11 puncte principale, acestea facand referire la planul de testare, obiective si aspecte de business/management, dar si afisarea, respectiv analizarea tehnicilor de testare, bug-urilor, story-urilor din Jira.
 
 Tehnologii utilizate: Jira, Zephyr. Pentru utilizarea platformei Jira s-a folosit contul ItFactory, cont la care s-a creat proiectul cu numele Anti Razvan-Ionut TMTA13. De asemenea, a fost necesara si instalarea plug-in-ului Zephyr prin logarea ca Administrator, accesarea meniului Jira si selectarea optiunii Apps, Find New Apps, s-a cautat Zephyr for Jira si s-a accesat rezultatul cautarii. Apoi s-a instalat plug-in-ul. De asemenea, proiectul in cauza s-a folosit si de documentatia API a website-ului, link-ul fiind furnizat mai sus.             
 
@@ -72,9 +72,9 @@ Implementarea unei funcționalități care nu corespunde cu ceea ce și-a imagin
 Un serviciu de livrare întârzie livrarea comenzilor din cauza unor probleme tehnice la nivelul infrastructurii lor.
 
 # 6. Evaluarea criteriilor de intrare
-In urma implementarii planului de testare, criteriile de intrare au fost atinse, iar procesul poate continua, el putandu-se modifica datorita abordarii de tip agile.
+In urma implementarii planului de testare, criteriile de intrare au fost atinse, iar procesul poate continua, el putandu-se modifica datorita abordarii de tip agile. 
 
-# 7 Testele de monitorizare si control
+* Testele de monitorizare si control
 Monitorizarea si controlul se va realiza generand rapoarte periodice care sa coincida cu statusul curent al testelor. Astfel, Se vor face comparatii cantitative si masurabile ale planului original cu progresul testarii, se va verifica si analiza status report-ul, adaugarea de teste aditionale unde va fi necesar (conform evolutiei proiectului si cerintelor ulterioare ale clientului, luand bineinteles in calcul renegocierea timpului de livrare si a pretului proiectului).
 
 
@@ -82,7 +82,7 @@ Monitorizarea si controlul se va realiza generand rapoarte periodice care sa coi
 
 
 
-# 8 Analiza tehnicilor de testare - Jira
+# 7 Analiza tehnicilor de testare - Jira
 
 * Test Analysis
 Conform planului de testare, dar si prin documentatia primita de la client, putem demara elaborarea si testarea cerintelor de business, specificatiile de design, in vederea imbunatatirii loc, inlaturarea generalitatilor si ambiguitatilor, contradictii. Concret, putem considera ca ne aflam intr-o etapa de early testing, in care se discuta cu specialistii care sunt modulele cu impact cel mai mare asupra clientului.
@@ -107,7 +107,7 @@ Story 'Shopping Cart PAge'
 10. Clientul are optiunea adaugarii unui cupon in sectiunea de shopping cart - pentru a incuraja achizitionarea mai multor produse, a oferi o experienta de achizitie completa pe care o poate gasi la competitie. 
 
 
-# 9 Test Design
+# 8 Test Design
 Test case-urile pentru website au fost create folosind Zephyr Squad. In urma analizei specificatiilor tehnice, designului de testare a acoperit test case-uri pentru modulul Store Front: 
 
 
@@ -133,7 +133,7 @@ Links the customer to My Account
 
 Epicul, story-urile, test case-urile, bug-urile pot fi accesate in sectiunea de [aici](https://github.com/RazvanAnti/Proiect-Final-Jira/blob/aefdd2dda119b72bb1a4c18d35c21fa235b2ad76/Test%20cases.pdf)
 
- # 10 Test Implementation
+ # 9 Test Implementation
 
 Pentru ca etapa executarii testelor sa poata inceapa, avem nevoie de prezenta unor elemente importante:
 Crearea unor preconditii aferente fiecarui test case
@@ -147,7 +147,7 @@ Descrierea pasilor unui test case, aici adaugand si test data, dar mai ales rezu
 Adaugarea unor sub-task-uri aferente test case-urilor acolo unde va fi necesar.
 
 
-# 11 Test Execution
+# 10 Test Execution
 
 Test case-urile au fost executate prin Zephyr Squad si pot fi analizate: [Test Cases](https://github.com/RazvanAnti/Proiect-Final-Jira/blob/main/Test%20cases.pdf)
 
@@ -166,7 +166,7 @@ Bugs:
 
 * Clicking on the second banner from the Slideshow did not oppend the product`s page, did not open any page
 
-# 12 Test Completion
+# 11 Test Completion
 
 Criteriile de iesire au fost evaluate si adaptate in functie de modificarile ulterioare, astfel incat, estimarile au suferit modificari si limite de timp si accesabilitate. Testele create ulterior au statusul Passed, iar defectele critice au fost inchise si documentate.
 
