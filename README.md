@@ -4,7 +4,7 @@ Scopul proiectului al cursului de Testare Manuala si Automata este utilizarea tu
 
 Site testat: [OpenCart](https://docs.opencart.com/en-gb/introduction/)
 
-Documentatia API: https://docs.opencart.com/en-gb/system/users/api/
+Documentatia API: [OpenCart.API](https://docs.opencart.com/en-gb/system/users/api/)
 
 Proiectul este impartit in 2 segmente, dintre care sectiunea planul de testare, obiective si aspecte de business/management, dar si afisarea, respectiv analizarea tehnicilor de testare din Jira.
 
