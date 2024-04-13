@@ -1,6 +1,6 @@
 # Proiect-Final-Jira
 
-Scopul proiectului al cursului de Testare Manuala si Automata este utilizarea tuturor cunostintelor tehnice dobandite de-a lungul cursului si utilizarea lor in cazuri practice, intalnite in activitatea de zi cu zi.
+ Scopul proiectului al cursului de Testare Manuala si Automata este utilizarea tuturor cunostintelor tehnice dobandite de-a lungul cursului si utilizarea lor in cazuri practice, intalnite in activitatea de zi cu zi.
 
 * Site testat: [OpenCart](https://docs.opencart.com/en-gb/introduction/)
 
