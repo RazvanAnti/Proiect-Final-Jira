@@ -153,18 +153,17 @@ Test case-urile au fost executate prin Zephyr Squad si pot fi analizate: [Test C
 
 Bug-urile generate in urma executarii testelor: [Bugs](https://github.com/RazvanAnti/Proiect-Final-Jira/blob/main/Bugs.pdf)
 
-Bug-uri:
-Search box does not return the products that was searched it return an Error
+* Search box does not return the products that was searched it return an Error
 
-Contact emergency can be added with an incorect type of mobile phone number
+* Contact emergency can be added with an incorect type of mobile phone number
 
-The sub-categories for the parent category are not displayed when the mouse is dragged over it
+* The sub-categories for the parent category are not displayed when the mouse is dragged over it
 
-The parent category page did not oppens when is clicked
+* The parent category page did not oppens when is clicked
 
-Clicking on the second banner from the Slideshow did not oppend the product`s page, did not open any page
+* Clicking on the second banner from the Slideshow did not oppend the product`s page, did not open any page
 
-Clicking on the second banner from the Slideshow did not oppend the product`s page, did not open any page
+* Clicking on the second banner from the Slideshow did not oppend the product`s page, did not open any page
 
 # 12 Test Completion
 
