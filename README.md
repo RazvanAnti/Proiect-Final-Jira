@@ -120,7 +120,7 @@ Links the customer to the Wish List
 
 Links the customer to My Account
 
-Testele detaliate pot fi accesate [aici]((https://github.com/RazvanAnti/Proiect-Final-Jira/commit/aefdd2dda119b72bb1a4c18d35c21fa235b2ad76#diff-80c10f326afd240873c60a2ed318f7aa3b24f60f84b39e86f1224b91202e90d7)
+Testele detaliate pot fi accesate [aici](https://github.com/RazvanAnti/Proiect-Final-Jira/commit/aefdd2dda119b72bb1a4c18d35c21fa235b2ad76#diff-80c10f326afd240873c60a2ed318f7aa3b24f60f84b39e86f1224b91202e90d7)
 
  # 2.3. Test Implementation
 
