@@ -191,6 +191,8 @@ Story: Shopping Cart Page --> Links the customer to the Shopping Cart, Links the
 
  0 severitate ridicată, 7 medie, 3 redusă
 
+
+# Concluzie: 
 In urma analizei defectelor, nu există bug-uri care pot duce la riscul unui impact ridicat în ceea ce privește imaginea de brand, decizia de cumpărare sau pierderea de clienți.
 
 Totuși, există bug-uri care îngreunează experiența de utilizare a clientului final, interacțiunea cu produsele. Impact de natură UI/UX conține 7 bug-uri cu severitate medie, 6 dintre acestea având un grad mediu de prioritate, 1 prioritate redusă.
