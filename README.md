@@ -6,7 +6,7 @@
 
 * Documentatia API: [OpenCart.API](https://docs.opencart.com/en-gb/system/users/api/)
 
-Proiectul este impartit in 2 segmente, dintre care sectiunea planul de testare, obiective si aspecte de business/management, dar si afisarea, respectiv analizarea tehnicilor de testare din Jira.
+Proiectul prezinta 13 puncte principale, acestea facand referire la planul de testare, obiective si aspecte de business/management, dar si afisarea, respectiv analizarea tehnicilor de testare, bug-urilor, story-urilor din Jira.
 
 Tehnologii utilizate: Jira, Zephyr. Pentru utilizarea platformei Jira s-a folosit contul ItFactory, cont la care s-a creat proiectul cu numele Anti Razvan-Ionut TMTA13. De asemenea, a fost necesara si instalarea plug-in-ului Zephyr prin logarea ca Administrator, accesarea meniului Jira si selectarea optiunii Apps, Find New Apps, s-a cautat Zephyr for Jira si s-a accesat rezultatul cautarii. Apoi s-a instalat plug-in-ul. De asemenea, proiectul in cauza s-a folosit si de documentatia API a website-ului, link-ul fiind furnizat mai sus.             
 
@@ -55,7 +55,7 @@ Amintim testele non-functionale precum cele de stres, performanta, dar si alte t
 Nu va axista QA support pentru versiunea de mobil a site-ului, respectiv aplicatia, testarea rezumandu-se doar la pagina web a clientului.
 Testarea automata este de asemenea in afara domeniului de aplicare.
 
-# 5. Amintim riscurile asociate, acestea fiind de 2 feluri:
+# 5. Riscurile asociate:
 Riscurile de proiect: Resursele insuficiente se refera fie la lipsa de personal si de timp in vederea realizarii testarii in profunzime/tuturor defectelor. Stabilirea unui program neclar sau instabil reprezinta un risc asociat tehnicii agile. Un risc probabil mai ales in cazul unor termene limita stranse, care pot veni in completarea la numeroase schimbari in cerinte (testare incompleta sau chiar superficiala). Problemele de comunicare sau posibila incompatibilitate de a exprima clar notiuni de natura tehnica, importante de altfel pentru serviciile clientului. Competentele reduse ale personalului, un risc posibil mai ales in cazul in care se descopera o multitudine de defecte si bug-uri complexe.
 
 Specific proiectului: 
