@@ -94,7 +94,7 @@ Conform planului de testare, dar si prin documentatia primita de la client, pute
 Story 'Shopping Cart PAge'
 ![image](https://github.com/RazvanAnti/Proiect-Final-Jira/assets/165046399/113f1570-24f9-4080-b20f-8445978c864b)
 
-Conditii de testare:
+* Conditii de testare:
 1. Testarea directionarii clientului catre sectiunea de Shopping Cart - pentru o rata de conversie mai buna
 2. Directionarea clientului catre Checkout - pentru a scurta customer jurney
 3. Top Menu este afisat pe fiecare pagina - pentru a avea un UI  intuitiv si rapid
