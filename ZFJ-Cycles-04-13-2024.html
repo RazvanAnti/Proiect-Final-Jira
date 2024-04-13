@@ -1,0 +1,2588 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>ZFJ - Html Report for Executions</title>
+        <script type="text/javascript">
+        function altRows ( id ) {
+            if ( document.getElementsByTagName ) {
+                var table = document.getElementById ( id ) ;
+                var rows = table.getElementsByTagName ( "tr" ) ;
+                for ( i = 0 ; i < rows.length ; i ++ ) {
+                    if ( i % 2 == 0 ) {
+                        rows[ i ].className = "evenrowcolor" ;
+                    } else {
+                        rows[ i ].className = "oddrowcolor" ;
+                    }
+                }
+            }
+        }
+        window.onload = function ( ) {
+            altRows ( 'alternatecolor' ) ;
+        }
+        </script>
+        <style type="text/css">
+        table.altrowstable {
+            font-family : verdana, arial, sans-serif ;
+            font-size : 9px ;
+            padding-left : 50px ;
+            color : #333333 ;
+            border-width : 1px ;
+            border-color : #a9c6c9 ;
+            border-collapse : collapse ;
+        }
+        table.altrowstable th {
+            border-width : 1px ;
+            padding : 8px ;
+            border-style : solid ;
+            border-color : #a9c6c9 ;
+        }
+        table.altrowstable thead {
+            font-weight : bold ;
+        }
+        table.altrowstable td {
+            border-width : 1px ;
+            padding : 8px ;
+            border-style : solid ;
+            border-color : #a9c6c9 ;
+        }
+        .oddrowcolor {
+            background-color : #d4e3e5 ;
+        }
+        .evenrowcolor {
+            background-color : none ;
+        }
+        </style>
+    </head>
+    <body>
+
+        <table class="altrowstable" id="alternatecolor" border="1" cellspacing="0" cellpadding="0" style="padding-left : 50 px ; overflow-y = scroll ;">
+            <thead>
+                <th>ExecutionId</th>
+                <th>Cycle</th>
+                <th>Folder Name</th>
+                <th>Issue Key</th>
+                <th>Test Summary</th>
+                <th>Project</th>
+                <th>Component</th>
+                <th>Version</th>
+                <th>Priority</th>
+                <th>Executed By</th>
+                <th>Executed On</th>
+                <th>Execution Status</th>
+                <th>Execution Defect(s)</th>
+                <th>Creation Date</th>
+                <th>Assigned To</th>
+                <th>Execution Custom Field</th>
+                <th>Work Flow Status</th>
+                <th>Total Execution Time</th>
+                <th>Total Logged Time</th>
+                <th>StepId</th>
+                <th>OrderId</th>
+                <th>Step</th>
+                <th>Test Data</th>
+                <th>Expected Result</th>
+                <th>Step Result</th>
+                <th>Comment</th>
+                <th>Test Step Custom Field</th>
+            </thead>
+            <tbody>
+            
+                
+                    <tr>
+                        <td rowspan="2">d06db205-efd4-476f-ad45-a1b19250f330</td>
+                        <td rowspan="2">Ad hoc</td>
+                        <td rowspan="2"></td>
+                        <td rowspan="2">DNT-34</td>
+                        <td rowspan="2">Clicking on the logo successfully directed the customer back to the home page of the store</td>
+                        <td rowspan="2">Anti Razvan-Ionut_TMTA13</td>
+                        <td rowspan="2"></td>
+                        <td rowspan="2">Version 3.0.2.0</td>
+                        <td rowspan="2">Medium</td>
+                        <td rowspan="2">IT Factory</td>
+                        <td rowspan="2">06/Nov/23 02:38 PM</td>
+                        <td rowspan="2">PASS</td>
+                        <td rowspan="2"></td>
+                        <td rowspan="2">06/Nov/23 02:37 PM</td>
+                        <td rowspan="2"></td>
+                        <td rowspan="2"></td>
+                        <td rowspan="2"></td>
+                        <td rowspan="2"></td>
+                        <td rowspan="2"></td>
+                        
+                            <td>66388c87-3ddc-4d36-88e5-596615aa0d2b</td>
+                            <td>1</td>
+                            <td><p>Click on Search button</p></td>
+                            <td></td>
+                            <td><p>The search area oppened</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>1af02d74-21b2-4db9-929c-ac4171dbae4e</td>
+                            <td>2</td>
+                            <td><p>Click on the logo</p></td>
+                            <td></td>
+                            <td><p>Returned to home page of the store</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="4">6fd7e20d-ba02-4662-9a32-b3b7237ff5e9</td>
+                        <td rowspan="4">Ad hoc</td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4">DNT-35</td>
+                        <td rowspan="4"> Change the currency of the store&#x27;s products from the currency button</td>
+                        <td rowspan="4">Anti Razvan-Ionut_TMTA13</td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4">Version 3.0.2.0</td>
+                        <td rowspan="4">Medium</td>
+                        <td rowspan="4">IT Factory</td>
+                        <td rowspan="4">06/Nov/23 03:31 PM</td>
+                        <td rowspan="4">PASS</td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4">06/Nov/23 03:30 PM</td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4"></td>
+                        
+                            <td>5f68545a-a10e-4eb6-b943-d78b9b0f7fa0</td>
+                            <td>1</td>
+                            <td><p>Click on the Currency drop button</p></td>
+                            <td></td>
+                            <td><p>The list of currency`s is displayed</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>d49a9c4f-2de1-496f-add2-c55dcea0ffd4</td>
+                            <td>2</td>
+                            <td><p>Click on `Euro` currency</p></td>
+                            <td></td>
+                            <td><p>The currency on the store is successfully changed into Euro.</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>64ac224f-df4d-4db6-9340-f93205992492</td>
+                            <td>3</td>
+                            <td><p>Click on `Pound Sterling` currency</p></td>
+                            <td></td>
+                            <td><p>The currency on the store is successfully changed into Pound Sterling.</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>822006f5-60ac-40be-846e-2d207ee7a5bc</td>
+                            <td>4</td>
+                            <td><p>Click on `US Dollar` currency</p></td>
+                            <td></td>
+                            <td><p>The currency on the store is successfully changed into Dollar.</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="3">77c0cd6e-bdfc-4f85-9146-4aac19891e51</td>
+                        <td rowspan="3">Ad hoc</td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3">DNT-36</td>
+                        <td rowspan="3">Shopping cart displays the number of items purchased and the total price of the order</td>
+                        <td rowspan="3">Anti Razvan-Ionut_TMTA13</td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3">Version 3.0.2.0</td>
+                        <td rowspan="3">Medium</td>
+                        <td rowspan="3">IT Factory</td>
+                        <td rowspan="3">08/Nov/23 04:23 PM</td>
+                        <td rowspan="3">PASS</td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3">08/Nov/23 04:22 PM</td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3"></td>
+                        
+                            <td>9b11a5ec-d8d3-4bc0-a25d-f3e412a0c625</td>
+                            <td>1</td>
+                            <td><p>Add to the cart an item</p></td>
+                            <td><p>Added an Iphone to the cart</p></td>
+                            <td><p>The item is succesfully added to the cart and on the shopping cart button appears : 1 item(s) - and his price</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>56f641ab-e9fd-473d-abc2-4813c9eb5409</td>
+                            <td>2</td>
+                            <td><p>Add to the cart another item</p></td>
+                            <td><p>Added an MacBook to the cart</p></td>
+                            <td><p>The item is succesfully added to the cart and on the shopping cart button appears : 2 item(s) - and their total price</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>f7116509-4793-45cb-b0c9-f789f63cff5d</td>
+                            <td>3</td>
+                            <td><p>Add to the cart another item</p></td>
+                            <td><p>Added a Nikon D300 to the cart</p></td>
+                            <td><p>The item is succesfully added to the cart and on the shopping cart button appears : 3 item(s) - and their total price</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="1">058c10a6-d778-4c5d-b0a9-5d4654ac18aa</td>
+                        <td rowspan="1">Ad hoc</td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1">DNT-37</td>
+                        <td rowspan="1">Clicking on the Shopping cart button will containing all of products added to the cart</td>
+                        <td rowspan="1">Anti Razvan-Ionut_TMTA13</td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1">Version 3.0.2.0</td>
+                        <td rowspan="1">Medium</td>
+                        <td rowspan="1">IT Factory</td>
+                        <td rowspan="1">08/Nov/23 04:23 PM</td>
+                        <td rowspan="1">PASS</td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1">08/Nov/23 04:22 PM</td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1"></td>
+                        
+                            <td>e2114704-6a01-4a57-9d5b-8029d037197f</td>
+                            <td>1</td>
+                            <td><p>Click on the Shopping cart button</p></td>
+                            <td></td>
+                            <td><p>All the products added in the cart are successfully displayed</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="1">749b3543-6216-413c-a4c0-6e3365f9ae96</td>
+                        <td rowspan="1">Ad hoc</td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1">DNT-38</td>
+                        <td rowspan="1">Clicking on the Shopping cart button an option to &quot;View Cart&quot; or &quot;Checkout&quot; will appear</td>
+                        <td rowspan="1">Anti Razvan-Ionut_TMTA13</td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1">Version 3.0.2.0</td>
+                        <td rowspan="1">Medium</td>
+                        <td rowspan="1">IT Factory</td>
+                        <td rowspan="1">08/Nov/23 04:23 PM</td>
+                        <td rowspan="1">PASS</td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1">08/Nov/23 04:22 PM</td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1"></td>
+                        
+                            <td>88bd9d78-f989-4ca1-9737-106f82e7d074</td>
+                            <td>1</td>
+                            <td><p>Click on the shopping cart cutton</p></td>
+                            <td></td>
+                            <td><p>The options 'View cart' and 'Checkout' are successfully displayed</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="5">102aa66f-3ebe-47cf-bfb9-02b72c608f1a</td>
+                        <td rowspan="5">Ad hoc</td>
+                        <td rowspan="5"></td>
+                        <td rowspan="5">DNT-44</td>
+                        <td rowspan="5">Links the customer to My Account</td>
+                        <td rowspan="5">Anti Razvan-Ionut_TMTA13</td>
+                        <td rowspan="5"></td>
+                        <td rowspan="5">Version 3.0.2.0</td>
+                        <td rowspan="5">Medium</td>
+                        <td rowspan="5">IT Factory</td>
+                        <td rowspan="5">09/Nov/23 02:15 PM</td>
+                        <td rowspan="5">PASS</td>
+                        <td rowspan="5"></td>
+                        <td rowspan="5">09/Nov/23 02:14 PM</td>
+                        <td rowspan="5"></td>
+                        <td rowspan="5"></td>
+                        <td rowspan="5"></td>
+                        <td rowspan="5"></td>
+                        <td rowspan="5"></td>
+                        
+                            <td>47b75f3d-4486-499c-ab65-1038d05cf312</td>
+                            <td>1</td>
+                            <td><p>Click on 'My account' button</p></td>
+                            <td></td>
+                            <td><p>The options 'Register' and 'Login' will appear</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>80a27b30-fc4f-4c8e-9f8b-ac5af04b5c10</td>
+                            <td>2</td>
+                            <td><p>Click on 'Login' button</p></td>
+                            <td><p>E-Mail Address : anti.razvan@gmail.com</br>Password : cursit</p></td>
+                            <td><p>'My account' page is displayed</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>1858806d-132d-48be-9912-072e723832c3</td>
+                            <td>3</td>
+                            <td><p>Return to the home page</p></td>
+                            <td></td>
+                            <td><p>Home page is diplayed</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>a2a62668-89ec-41a0-a7c0-f035b63bbecd</td>
+                            <td>4</td>
+                            <td><p>Click on 'My account' button</p></td>
+                            <td></td>
+                            <td><p>The options from the dropdown button will appear : </br>My Account</br>Order History</br>Transactions</br>Downloads</br>Logout</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>75837bf6-1f04-44d4-a9e6-8e9b7903a1c1</td>
+                            <td>5</td>
+                            <td><p>Select 'My account' option</p></td>
+                            <td></td>
+                            <td><p>'My account' page is displayed</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="1">7379f525-fd94-4d02-bbf0-faae6b8995c2</td>
+                        <td rowspan="1">Ad hoc</td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1">DNT-45</td>
+                        <td rowspan="1">Links the customer to the Shopping Cart</td>
+                        <td rowspan="1">Anti Razvan-Ionut_TMTA13</td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1">Version 3.0.2.0</td>
+                        <td rowspan="1">Medium</td>
+                        <td rowspan="1">IT Factory</td>
+                        <td rowspan="1">09/Nov/23 02:16 PM</td>
+                        <td rowspan="1">PASS</td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1">09/Nov/23 02:14 PM</td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1"></td>
+                        
+                            <td>6f99b65a-0013-4414-8994-250bdd439e47</td>
+                            <td>1</td>
+                            <td><p>Click on 'Shopping Cart' button</p></td>
+                            <td></td>
+                            <td><p>The 'Shopping Cart' page is displayed</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="1">26f5435d-32a8-444f-aa50-1ffe59bcef05</td>
+                        <td rowspan="1">Ad hoc</td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1">DNT-46</td>
+                        <td rowspan="1">Links the customer to the Checkout</td>
+                        <td rowspan="1">Anti Razvan-Ionut_TMTA13</td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1">Version 3.0.2.0</td>
+                        <td rowspan="1">Medium</td>
+                        <td rowspan="1">IT Factory</td>
+                        <td rowspan="1">09/Nov/23 02:16 PM</td>
+                        <td rowspan="1">PASS</td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1">09/Nov/23 02:14 PM</td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1"></td>
+                        
+                            <td>b949d853-474c-4589-b5ab-7da9132dc544</td>
+                            <td>1</td>
+                            <td><p>Click on 'Checkout' button</p></td>
+                            <td></td>
+                            <td><p>The 'Checkout' page is oppend</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="1">9e6f6bf5-d36d-41a9-afc4-1b71e5c27335</td>
+                        <td rowspan="1">Ad hoc</td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1">DNT-43</td>
+                        <td rowspan="1">Links the customer to the Wish List</td>
+                        <td rowspan="1">Anti Razvan-Ionut_TMTA13</td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1">Version 3.0.2.0</td>
+                        <td rowspan="1">Medium</td>
+                        <td rowspan="1">IT Factory</td>
+                        <td rowspan="1">09/Nov/23 02:17 PM</td>
+                        <td rowspan="1">PASS</td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1">09/Nov/23 02:14 PM</td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1"></td>
+                        
+                            <td>6c90995e-1a97-4b3f-9c87-4c8858c4fe1a</td>
+                            <td>1</td>
+                            <td><p>Click on 'Wish List' button</p></td>
+                            <td></td>
+                            <td><p>The 'Wish List' is oppend</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="1">fec98844-3624-4b43-be24-a43d1cd5f03d</td>
+                        <td rowspan="1">Ad hoc</td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1">DNT-47</td>
+                        <td rowspan="1">Company telephone number is displayed in the header</td>
+                        <td rowspan="1">Anti Razvan-Ionut_TMTA13</td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1">Version 3.0.2.0</td>
+                        <td rowspan="1">Medium</td>
+                        <td rowspan="1">IT Factory</td>
+                        <td rowspan="1">09/Nov/23 02:25 PM</td>
+                        <td rowspan="1">PASS</td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1">09/Nov/23 02:24 PM</td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1"></td>
+                        
+                            <td>ae4ec6d1-6424-41fe-8c9c-c4a996ed789d</td>
+                            <td>1</td>
+                            <td><p>The company telephone number is displayed in the header</p></td>
+                            <td></td>
+                            <td><p>The company telephone number successfully appears in the header</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="4">5d829d13-4506-4c18-b9f7-d264d96df847</td>
+                        <td rowspan="4">Ad hoc</td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4">DNT-49</td>
+                        <td rowspan="4">The header is succesfully displayed at the top of the page on every page of the store not just the home page</td>
+                        <td rowspan="4">Anti Razvan-Ionut_TMTA13</td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4">Version 3.0.2.0</td>
+                        <td rowspan="4">Medium</td>
+                        <td rowspan="4">IT Factory</td>
+                        <td rowspan="4">09/Nov/23 02:45 PM</td>
+                        <td rowspan="4">PASS</td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4">09/Nov/23 02:43 PM</td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4"></td>
+                        
+                            <td>170a0e72-45f0-447a-83d4-fcf63592d80b</td>
+                            <td>1</td>
+                            <td><p>From Home page click on 'My Account' button and select 'My Account' option from the dropdown button</p></td>
+                            <td></td>
+                            <td><p>My Account page is oppend and the header is displayed on the top of the page</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>16b5fefc-b1dc-4338-a169-be5385857cb8</td>
+                            <td>2</td>
+                            <td><p>Return to Home Page</p></td>
+                            <td></td>
+                            <td><p>Home page is successfully displayed</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>0e7a1694-d4b7-4539-9b76-fd5818778a0c</td>
+                            <td>3</td>
+                            <td><p>Click on the product 'MacBook' from the page</p></td>
+                            <td></td>
+                            <td><p>The page from the 'MacBook' product is oppend and the header is displayed on the top of the page</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>c0ec45a7-7986-4e0b-aabf-68bf59121417</td>
+                            <td>4</td>
+                            <td><p>Return to Home Page</p></td>
+                            <td></td>
+                            <td><p>Home page is successfully displayed</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="3">dbfd3cef-5d0d-4c4e-b1c9-17aa369fdbb2</td>
+                        <td rowspan="3">Ad hoc</td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3">DNT-53</td>
+                        <td rowspan="3">The top menu is succesfully displayed on every page</td>
+                        <td rowspan="3">Anti Razvan-Ionut_TMTA13</td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3">Version 3.0.2.0</td>
+                        <td rowspan="3">Medium</td>
+                        <td rowspan="3">IT Factory</td>
+                        <td rowspan="3">10/Nov/23 01:45 PM</td>
+                        <td rowspan="3">PASS</td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3">10/Nov/23 01:44 PM</td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3"></td>
+                        
+                            <td>3a7af3e7-ea31-4c15-9486-980571ed1e41</td>
+                            <td>1</td>
+                            <td><p>From Home page select Shopping Cart</p></td>
+                            <td></td>
+                            <td><p>The SHopping Cart is oppend and the top menu is displayed</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>bc1576bd-2d70-4434-9c15-53bdfbb6155e</td>
+                            <td>2</td>
+                            <td><p>Return to Home Page</p></td>
+                            <td></td>
+                            <td><p>Successfully returned to Home Page</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>c1976769-9104-4f1f-9b4d-a4d9c66b3969</td>
+                            <td>3</td>
+                            <td><p>From Home Page select Desktops-&#62; Show All Desktops</p></td>
+                            <td></td>
+                            <td><p>Desktops page is oppend and the top menu is displayed</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="4">802a53d0-c8a9-43ba-af68-8e5a766ed425</td>
+                        <td rowspan="4">Ad hoc</td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4">DNT-65</td>
+                        <td rowspan="4">The slideshow can only be viewed on the home page</td>
+                        <td rowspan="4">Anti Razvan-Ionut_TMTA13</td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4">Version 3.0.2.0</td>
+                        <td rowspan="4">Medium</td>
+                        <td rowspan="4">IT Factory</td>
+                        <td rowspan="4">11/Nov/23 02:14 PM</td>
+                        <td rowspan="4">PASS</td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4">11/Nov/23 01:28 PM</td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4"></td>
+                        
+                            <td>09b03d38-87a7-46ec-b3bf-35eff5feb0ea</td>
+                            <td>1</td>
+                            <td><p>From the Home page click on the 'Cameras' button</p></td>
+                            <td></td>
+                            <td><p>The 'Cameras' page is oppend, the products from the page are displayed and the Slideshow can not be viewed</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>bb291525-cfa9-45c3-8239-a1c148219114</td>
+                            <td>2</td>
+                            <td><p>Return to Home page</p></td>
+                            <td></td>
+                            <td><p>Successfully returned to Home page and the Slideshow can be viewed</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>75903134-d0fd-4f8a-97a9-e51be77a8f64</td>
+                            <td>3</td>
+                            <td><p>From the Home page click on the 'Tablets' button</p></td>
+                            <td></td>
+                            <td><p>The 'Tablets' page is oppend, the products from the page are displayed and the Slideshow can not be viewed</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>994fab3f-45ea-4b37-bc53-63e807a63937</td>
+                            <td>4</td>
+                            <td><p>Return to Home page</p></td>
+                            <td></td>
+                            <td><p>Successfully returned to Home page and the Slideshow can be viewed</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="1">4e21e575-6378-415d-8b12-b23a5e0abd69</td>
+                        <td rowspan="1">Ad hoc</td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1">DNT-62</td>
+                        <td rowspan="1">The slideshow successfully displays several product banners by alternating the images</td>
+                        <td rowspan="1">Anti Razvan-Ionut_TMTA13</td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1">Version 3.0.2.0</td>
+                        <td rowspan="1">Medium</td>
+                        <td rowspan="1">IT Factory</td>
+                        <td rowspan="1">11/Nov/23 01:32 PM</td>
+                        <td rowspan="1">PASS</td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1">11/Nov/23 01:28 PM</td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1"></td>
+                        
+                            <td>cd41ec60-a959-4a34-9195-07fa007d9df2</td>
+                            <td>1</td>
+                            <td><p>Watching the slideshow from Home Page</p></td>
+                            <td></td>
+                            <td><p>The slideshow successfully displayes several product banners by alternating the images</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="4">db9cff82-1471-4f17-9dfb-1cfc98128c3a</td>
+                        <td rowspan="4">Ad hoc</td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4">DNT-71</td>
+                        <td rowspan="4">The footer is successfully displayed on the bottom of every page</td>
+                        <td rowspan="4">Anti Razvan-Ionut_TMTA13</td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4">Version 3.0.2.0</td>
+                        <td rowspan="4">Medium</td>
+                        <td rowspan="4">IT Factory</td>
+                        <td rowspan="4">11/Nov/23 04:48 PM</td>
+                        <td rowspan="4">PASS</td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4">11/Nov/23 03:33 PM</td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4"></td>
+                        
+                            <td>dc6ce241-d4e4-4701-9576-b10ea5840b30</td>
+                            <td>1</td>
+                            <td><p>Go to Home Page</p></td>
+                            <td></td>
+                            <td><p>The footer is successfully displayed</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>9ff43eb3-f1bd-433c-b9da-bc00c111c10b</td>
+                            <td>2</td>
+                            <td><p>Click on MacBook from the Featured sections</p></td>
+                            <td></td>
+                            <td><p>The product page oppend and at the buttom of the page the footer is successfully displayed</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>aef84607-ae9b-4c7b-9bbb-6a641799f9cc</td>
+                            <td>3</td>
+                            <td><p>Click on Shopping cart</p></td>
+                            <td></td>
+                            <td><p>The Shopping cart page oppend and at the buttom of the page the footer is successfully displayed</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>a4f3a798-00d3-4c2d-8e52-9d12d847df55</td>
+                            <td>4</td>
+                            <td><p>Click on Tablets button from the Top Meniu</p></td>
+                            <td></td>
+                            <td><p>The Tablets page is oppend and at the buttom of the page the footer is successfully displayed</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="1">3609c455-dc13-4f6c-8913-e64bef6b6c13</td>
+                        <td rowspan="1">Ad hoc</td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1">DNT-72</td>
+                        <td rowspan="1">The organizational scheme of the footer is successfully divided into sections</td>
+                        <td rowspan="1">Anti Razvan-Ionut_TMTA13</td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1">Version 3.0.2.0</td>
+                        <td rowspan="1">Medium</td>
+                        <td rowspan="1">IT Factory</td>
+                        <td rowspan="1">11/Nov/23 04:48 PM</td>
+                        <td rowspan="1">PASS</td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1">11/Nov/23 03:33 PM</td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1"></td>
+                        
+                            <td>ce6a3f16-f667-4d5f-a0e1-7115f97378dc</td>
+                            <td>1</td>
+                            <td><p>Go to the buttom to the Home Page</p></td>
+                            <td></td>
+                            <td><p>The footer is devided into following sections : Information, Customer Service, Extras, My Account</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="15">7ea68921-02d0-486e-81f4-615b1dfffdca</td>
+                        <td rowspan="15">Ad hoc</td>
+                        <td rowspan="15"></td>
+                        <td rowspan="15">DNT-73</td>
+                        <td rowspan="15">Clicking on the items from the footer sections successfully links to relevant pages</td>
+                        <td rowspan="15">Anti Razvan-Ionut_TMTA13</td>
+                        <td rowspan="15"></td>
+                        <td rowspan="15">Version 3.0.2.0</td>
+                        <td rowspan="15">Medium</td>
+                        <td rowspan="15">IT Factory</td>
+                        <td rowspan="15">11/Nov/23 04:49 PM</td>
+                        <td rowspan="15">PASS</td>
+                        <td rowspan="15"></td>
+                        <td rowspan="15">11/Nov/23 03:33 PM</td>
+                        <td rowspan="15"></td>
+                        <td rowspan="15"></td>
+                        <td rowspan="15"></td>
+                        <td rowspan="15"></td>
+                        <td rowspan="15"></td>
+                        
+                            <td>06c24284-1a43-49e1-9b56-773c887305aa</td>
+                            <td>1</td>
+                            <td><p>Click on 'Terms&Conditions' from the Information footer section</p></td>
+                            <td></td>
+                            <td><p>Successfully oppend the 'Terms&Conditions' page</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>add3b457-573e-45ad-a378-17d9c815a2f8</td>
+                            <td>2</td>
+                            <td><p>Click on 'Delivery Information' from the Information footer section</p></td>
+                            <td></td>
+                            <td><p>Successfully oppend the 'Delivery Information' page</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>908fd544-4801-4618-8be6-d76af161a089</td>
+                            <td>3</td>
+                            <td><p>Click on 'About Us' from the Information footer section</p></td>
+                            <td></td>
+                            <td><p>Successfully oppend the 'About Us' page</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>9576cd29-a631-46ee-b585-aaf043170900</td>
+                            <td>4</td>
+                            <td><p>Click on 'Privacy Policy' from the Information footer section</p></td>
+                            <td></td>
+                            <td><p>Successfully oppend the 'Privacy Policy' page</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>614dfe86-b534-4ff1-8bca-d4ecaa06c5f8</td>
+                            <td>5</td>
+                            <td><p>Click on 'Contact Us' from the Customer Service footer section</p></td>
+                            <td></td>
+                            <td><p>Successfully oppend the 'Contact Us' page</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>011536ed-1bcc-4e36-82ae-4793bd17cd56</td>
+                            <td>6</td>
+                            <td><p>Click on 'Returns' from the Customer Service footer section</p></td>
+                            <td></td>
+                            <td><p>Successfully oppend the 'Returns' page</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>7c502176-6d92-4cd4-a291-0e9f64ecf332</td>
+                            <td>7</td>
+                            <td><p>Click on 'Site Map' from the Customer Service footer section</p></td>
+                            <td></td>
+                            <td><p>Successfully oppend the 'Site Map' page</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>f978bc55-c5fd-435e-8c97-8f0e73149940</td>
+                            <td>8</td>
+                            <td><p>Click on 'Brands' from the Extras footer section</p></td>
+                            <td></td>
+                            <td><p>Successfully oppend the 'Brands' page</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>8ea885c7-330e-4b91-8dd6-efee82dcba35</td>
+                            <td>9</td>
+                            <td><p>Click on 'Gift Certificates' from the Extras footer section</p></td>
+                            <td></td>
+                            <td><p>Successfully oppend the 'Gift Certificates' page</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>a5aeb83b-76fc-4a98-af43-c8a9ab39dda1</td>
+                            <td>10</td>
+                            <td><p>Click on 'Affiliate' from the Extras footer section</p></td>
+                            <td></td>
+                            <td><p>Successfully oppend the 'Affiliate' page</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>bef1d33b-bf5a-4fe1-9e25-f0657b1e5467</td>
+                            <td>11</td>
+                            <td><p>Click on 'Specials' from the Extras footer section</p></td>
+                            <td></td>
+                            <td><p>Successfully oppend the 'Specials' page</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>88adaebe-c9f8-4bf4-b169-1db936437b27</td>
+                            <td>12</td>
+                            <td><p>Click on 'My Account' from the My Account footer section</p></td>
+                            <td></td>
+                            <td><p>Successfully oppend the 'My Account' page</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>f80ce700-7415-4744-832d-16d17484068c</td>
+                            <td>13</td>
+                            <td><p>Click on 'Order History' from the My Account footer section</p></td>
+                            <td></td>
+                            <td><p>Successfully oppend the 'Order History' page</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>50e615a4-f60b-4711-af85-4a61c8443b84</td>
+                            <td>14</td>
+                            <td><p>Click on 'Wish List' from the My Account footer section</p></td>
+                            <td></td>
+                            <td><p>Successfully oppend the 'Wish List' page</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>f9f7c1fe-3851-440e-a4cf-5ce196cc3de5</td>
+                            <td>15</td>
+                            <td><p>Click on 'Newsletter' from the My Account footer section</p></td>
+                            <td></td>
+                            <td><p>Successfully oppend the 'Newsletter' page</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="6">95bb2f2f-5b29-4d03-8b6b-48b2513d35ea</td>
+                        <td rowspan="6">Ad hoc</td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6">DNT-76</td>
+                        <td rowspan="6">The product page contains Product details section</td>
+                        <td rowspan="6">Anti Razvan-Ionut_TMTA13</td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6">Version 3.0.2.0</td>
+                        <td rowspan="6">Medium</td>
+                        <td rowspan="6">IT Factory</td>
+                        <td rowspan="6">11/Nov/23 08:06 PM</td>
+                        <td rowspan="6">PASS</td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6">11/Nov/23 07:58 PM</td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6"></td>
+                        
+                            <td>46665a98-1a3f-4006-91d6-9e90b7ac2130</td>
+                            <td>1</td>
+                            <td><p>Go to Home Page -&#62; Desktops -&#62; Show All Desktops and select HP LP3065</p></td>
+                            <td></td>
+                            <td><p>The page for HP LP3065 is successfully open</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>512502d0-7d42-4eca-b456-ebe447276109</td>
+                            <td>2</td>
+                            <td><p>Search for product details</p></td>
+                            <td></td>
+                            <td><p>The product code, availability and price are displayed right to the product image</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>13699f15-4d47-40af-9c99-1b608acebe5f</td>
+                            <td>3</td>
+                            <td><p>Go to Top Meniu -&#62; MP3 Players -&#62; Show All MP3 Players and select iPod Touch</p></td>
+                            <td></td>
+                            <td><p>The page for iPod Touch is successfully open</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>1fac3ae4-7ffa-461f-aa0d-297f2f68c35f</td>
+                            <td>4</td>
+                            <td><p>Search for product details</p></td>
+                            <td></td>
+                            <td><p>The product code, availability and price are displayed right to the product image</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>d23d6e5d-3fdb-41b9-a034-a8feebfb22e3</td>
+                            <td>5</td>
+                            <td><p>Go to Top Meniu -&#62; Components -&#62; Monitors and select Apple Cinema 30"</p></td>
+                            <td></td>
+                            <td><p>The page for Apple Cinema 30"  is successfully open</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>77549285-6beb-4c7a-b686-e7196d5f4bd0</td>
+                            <td>6</td>
+                            <td><p>Search for product details</p></td>
+                            <td></td>
+                            <td><p>The product code, availability and price are displayed right to the product image</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="6">fa0877db-8dd0-468f-aa30-37794fd7500c</td>
+                        <td rowspan="6">Ad hoc</td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6">DNT-79</td>
+                        <td rowspan="6">The product page contains Description tab section</td>
+                        <td rowspan="6">Anti Razvan-Ionut_TMTA13</td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6">Version 3.0.2.0</td>
+                        <td rowspan="6">Medium</td>
+                        <td rowspan="6">IT Factory</td>
+                        <td rowspan="6">11/Nov/23 08:41 PM</td>
+                        <td rowspan="6">PASS</td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6">11/Nov/23 07:58 PM</td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6"></td>
+                        
+                            <td>c6edfa7a-67da-4f67-af19-498198093713</td>
+                            <td>1</td>
+                            <td><p>Go to Home Page -&#62; Desktops -&#62; Show All Desktops and select HP LP3065</p></td>
+                            <td></td>
+                            <td><p>The page for HP LP3065 is successfully open</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>d15f5e28-b0d0-4e66-8326-a4a4cf1f29db</td>
+                            <td>2</td>
+                            <td><p>Scroll down the page</p></td>
+                            <td></td>
+                            <td><p>The Description section is under the product photos</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>0add97f3-5032-418f-9a66-09f02b406033</td>
+                            <td>3</td>
+                            <td><p>Go to Top Meniu -&#62; MP3 Players -&#62; Show All MP3 Players and select iPod Touch</p></td>
+                            <td></td>
+                            <td><p>The page for iPod Touch is successfully open</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>09c39f40-f437-47ff-9852-dfefb5a00534</td>
+                            <td>4</td>
+                            <td><p>Scroll down the page</p></td>
+                            <td></td>
+                            <td><p>The Description section is under the product photos</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>c5784ddc-5c1f-4e8c-a15a-4f49ed66f6a0</td>
+                            <td>5</td>
+                            <td><p>Go to Top Meniu -&#62; Components -&#62; Monitors and select Apple Cinema 30"</p></td>
+                            <td></td>
+                            <td><p>The page for Apple Cinema 30"  is successfully open</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>8432e583-ee4e-4ec4-a770-54e8ad7aad99</td>
+                            <td>6</td>
+                            <td><p>Scroll down the page</p></td>
+                            <td></td>
+                            <td><p>The Description section is under the main product information</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="9">91f7013f-44af-464b-bf5f-e59ac65b997a</td>
+                        <td rowspan="9">Ad hoc</td>
+                        <td rowspan="9"></td>
+                        <td rowspan="9">DNT-80</td>
+                        <td rowspan="9">The product page contains Review tab section</td>
+                        <td rowspan="9">Anti Razvan-Ionut_TMTA13</td>
+                        <td rowspan="9"></td>
+                        <td rowspan="9">Version 3.0.2.0</td>
+                        <td rowspan="9">Medium</td>
+                        <td rowspan="9">IT Factory</td>
+                        <td rowspan="9">11/Nov/23 08:42 PM</td>
+                        <td rowspan="9">PASS</td>
+                        <td rowspan="9"></td>
+                        <td rowspan="9">11/Nov/23 07:58 PM</td>
+                        <td rowspan="9"></td>
+                        <td rowspan="9"></td>
+                        <td rowspan="9"></td>
+                        <td rowspan="9"></td>
+                        <td rowspan="9"></td>
+                        
+                            <td>aa04146f-a98c-465e-9bc3-99ff39d4813a</td>
+                            <td>1</td>
+                            <td><p>Go to Home Page -&#62; Desktops -&#62; Show All Desktops and select HP LP3065</p></td>
+                            <td></td>
+                            <td><p>The page for HP LP3065 is successfully open</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>94a11ac6-195a-4eea-aac1-46ad5334e967</td>
+                            <td>2</td>
+                            <td><p>Search for the Review tab section</p></td>
+                            <td></td>
+                            <td><p>The Review tab section is near the Description and Specification tabs</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>32dbf7fa-f3ba-43f8-a63b-bed52a557df7</td>
+                            <td>3</td>
+                            <td><p>Click on Write a review tab-&#62;Complete the fields-&#62;Click Continue</p></td>
+                            <td><p>Your Name : Dorina Nat</br>Your Review : 1234567891011121314151617</br>Raiting : 3</p></td>
+                            <td><p>The review is successfully send and the following message is recevied : ' Thank you for your review. It has been submitted to the webmaster for approval.'</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>1dad53f6-2ef4-4d8e-bb0f-34f4679832d2</td>
+                            <td>4</td>
+                            <td><p>Search for the Review tab section</p></td>
+                            <td></td>
+                            <td><p>The Review tab section is near the Description tab</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>c2bd0862-f3aa-4394-a555-a4fd420d9145</td>
+                            <td>5</td>
+                            <td><p>Go to Top Meniu -&#62; MP3 Players -&#62; Show All MP3 Players and select iPod Touch</p></td>
+                            <td></td>
+                            <td><p>The page for iPod Touch is successfully open</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>43675125-2d04-498d-9665-63753e943694</td>
+                            <td>6</td>
+                            <td><p>Click on Write a review tab-&#62;Complete the fields-&#62;Click Continue</p></td>
+                            <td><p>Your Name : Dorina Nat</br>Your Review : 1234567891011121314151617181920</br>Raiting : 4</p></td>
+                            <td><p>The review is successfully send and the following message is recevied : ' Thank you for your review. It has been submitted to the webmaster for approval.'</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>939aeac8-e2db-4c29-a465-6515fb3a59dd</td>
+                            <td>7</td>
+                            <td><p>Go to Top Meniu -&#62; Components -&#62; Monitors and select Apple Cinema 30"</p></td>
+                            <td></td>
+                            <td><p>The page for Apple Cinema 30"  is successfully open</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>bb1de2f4-dbbc-42b7-930a-afa2a59ca6ff</td>
+                            <td>8</td>
+                            <td><p>Search for the Review tab section</p></td>
+                            <td></td>
+                            <td><p>The Review tab section is near the Description and Specification tabs</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>9209b45d-8a40-4b69-8760-758e689e1ea3</td>
+                            <td>9</td>
+                            <td><p>Click on Write a review tab-&#62;Complete the fields-&#62;Click Continue</p></td>
+                            <td><p>Your Name : Dorina Nat</br>Your Review : 12345678910111213141516171819</br>Raiting : 2</p></td>
+                            <td><p>The review is successfully send and the following message is recevied : ' Thank you for your review. It has been submitted to the webmaster for approval.'</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="1">54323798-c8bb-4673-b1dc-018dc76ea524</td>
+                        <td rowspan="1">Ad hoc</td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1">DNT-86</td>
+                        <td rowspan="1">The products can be compared in the Product Comparison section</td>
+                        <td rowspan="1">Anti Razvan-Ionut_TMTA13</td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1">Version 3.0.2.0</td>
+                        <td rowspan="1">Medium</td>
+                        <td rowspan="1">IT Factory</td>
+                        <td rowspan="1">12/Nov/23 12:00 PM</td>
+                        <td rowspan="1">PASS</td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1">12/Nov/23 11:59 AM</td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1"></td>
+                        
+                            <td>fcb8428c-6f9b-43c8-aed8-8e32c7792871</td>
+                            <td>1</td>
+                            <td><p>Open the Product Comparison page</p></td>
+                            <td></td>
+                            <td><p>The details for the products from the comparison list are displayed</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="1">ceba32cd-bcb2-46b3-8c46-ccd8c43bb3c0</td>
+                        <td rowspan="1">Ad hoc</td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1">DNT-93</td>
+                        <td rowspan="1">After selecting the products, the shopping cart can be accessed from the header</td>
+                        <td rowspan="1">Anti Razvan-Ionut_TMTA13</td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1">Version 3.0.2.0</td>
+                        <td rowspan="1">Medium</td>
+                        <td rowspan="1">IT Factory</td>
+                        <td rowspan="1">12/Nov/23 01:22 PM</td>
+                        <td rowspan="1">PASS</td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1">12/Nov/23 01:20 PM</td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1"></td>
+                        
+                            <td>95235431-89dd-4d6b-a4aa-b0ec2885f6f4</td>
+                            <td>1</td>
+                            <td><p>Click on 'Shopping Cart' button from the header</p></td>
+                            <td></td>
+                            <td><p>The Shopping Cart page is successfully displayed</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="1">b74f6151-62da-4597-94ab-764cead0b46b</td>
+                        <td rowspan="1">Ad hoc</td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1">DNT-94</td>
+                        <td rowspan="1">The shopping cart gives an overview of the product selected</td>
+                        <td rowspan="1">Anti Razvan-Ionut_TMTA13</td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1">Version 3.0.2.0</td>
+                        <td rowspan="1">Medium</td>
+                        <td rowspan="1">IT Factory</td>
+                        <td rowspan="1">12/Nov/23 01:22 PM</td>
+                        <td rowspan="1">PASS</td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1">12/Nov/23 01:20 PM</td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1"></td>
+                        
+                            <td>757a01ba-5903-473f-8b67-997e88f1f5a6</td>
+                            <td>1</td>
+                            <td><p>Watch the overview of the selected products</p></td>
+                            <td></td>
+                            <td><p>The following products details are displayed : image, product name, model, quantity, uit price, total</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="1">4d2696a2-ef4e-4a82-8c07-3d265ea4f612</td>
+                        <td rowspan="1">Ad hoc</td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1">DNT-96</td>
+                        <td rowspan="1">The customer has an option to add a gift voucher in the Shopping Cart</td>
+                        <td rowspan="1">Anti Razvan-Ionut_TMTA13</td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1">Version 3.0.2.0</td>
+                        <td rowspan="1">Medium</td>
+                        <td rowspan="1">IT Factory</td>
+                        <td rowspan="1">12/Nov/23 01:23 PM</td>
+                        <td rowspan="1">PASS</td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1">12/Nov/23 01:20 PM</td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1"></td>
+                        
+                            <td>7d4fb3f5-c3df-4681-af61-987a08afa80a</td>
+                            <td>1</td>
+                            <td><p>Click on 'Use Gift Certificate' dropdown button</p></td>
+                            <td></td>
+                            <td><p>A box where the the gift certificate code can be written oppens</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="1">bdb27d21-6e6d-4e27-929d-72e42865887e</td>
+                        <td rowspan="1">Ad hoc</td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1">DNT-95</td>
+                        <td rowspan="1">The customer has an option to add a coupon code in the Shopping Cart</td>
+                        <td rowspan="1">Anti Razvan-Ionut_TMTA13</td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1">Version 3.0.2.0</td>
+                        <td rowspan="1">Medium</td>
+                        <td rowspan="1">IT Factory</td>
+                        <td rowspan="1">12/Nov/23 01:22 PM</td>
+                        <td rowspan="1">PASS</td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1">12/Nov/23 01:20 PM</td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1"></td>
+                        
+                            <td>77aa75d8-5c4b-4d9e-a7ca-8cb456452971</td>
+                            <td>1</td>
+                            <td><p>Click on Use Cupon Code dropdown button</p></td>
+                            <td></td>
+                            <td><p>A box where the code can be written oppens</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="3">a69f9296-3b57-470c-b3a1-a6e385958e18</td>
+                        <td rowspan="3">Ad hoc</td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3">DNT-97</td>
+                        <td rowspan="3">The customer has an option to estimate shipping &amp; taxes in the Shopping Cart</td>
+                        <td rowspan="3">Anti Razvan-Ionut_TMTA13</td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3">Version 3.0.2.0</td>
+                        <td rowspan="3">Medium</td>
+                        <td rowspan="3">IT Factory</td>
+                        <td rowspan="3">12/Nov/23 01:23 PM</td>
+                        <td rowspan="3">PASS</td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3">12/Nov/23 01:20 PM</td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3"></td>
+                        
+                            <td>c9aa623d-dc41-4ae2-9b3c-29dd5e50fac5</td>
+                            <td>1</td>
+                            <td><p>Click on 'Estimate Shipping & Taxes' dropdown button</p></td>
+                            <td></td>
+                            <td><p>An area where the destination need to be entered is dropped</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>a5066ee6-2d01-41bb-b55b-082347dad801</td>
+                            <td>2</td>
+                            <td><p>Complete the destination details</p></td>
+                            <td><p>Country : România</br>Region / State : Bistrița-Năsăud</br>Post Code : 420165</p></td>
+                            <td><p>Click 'Add Quotes' button</br>and Shipping method options is oppend</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>62d988f4-c099-40a3-aa96-d191f965fb66</td>
+                            <td>3</td>
+                            <td><p>Select the only option available from preferred shipping method to use on this order</p></td>
+                            <td><p>Flat Shipping Rate - $8.00</p></td>
+                            <td><p>Click on 'Apply Shipping' button and the message 'Success: Your shipping estimate has been applied!' appeard an the right top on the page</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="1">0af09d18-05e1-4186-b982-cfafbd0c71f9</td>
+                        <td rowspan="1">Ad hoc</td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1">DNT-98</td>
+                        <td rowspan="1">The &quot;Continue Shopping&quot; button from the Shopping Cart links back to the homepage</td>
+                        <td rowspan="1">Anti Razvan-Ionut_TMTA13</td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1">Version 3.0.2.0</td>
+                        <td rowspan="1">Medium</td>
+                        <td rowspan="1">IT Factory</td>
+                        <td rowspan="1">12/Nov/23 01:24 PM</td>
+                        <td rowspan="1">PASS</td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1">12/Nov/23 01:20 PM</td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1"></td>
+                        <td rowspan="1"></td>
+                        
+                            <td>92d66c87-b796-4d07-87b7-4f083068d1c6</td>
+                            <td>1</td>
+                            <td><p>Click on 'Continue Shopping' button</p></td>
+                            <td></td>
+                            <td><p>Home page is successfully displayed</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="7">f06a69cc-4d10-4653-af27-4298830327ce</td>
+                        <td rowspan="7">Ad hoc</td>
+                        <td rowspan="7"></td>
+                        <td rowspan="7">DNT-54</td>
+                        <td rowspan="7">When the mouse is dragged over a category a drop down menu will successfully display the sub-categories for that parent category</td>
+                        <td rowspan="7">Anti Razvan-Ionut_TMTA13</td>
+                        <td rowspan="7"></td>
+                        <td rowspan="7">Version 3.0.2.0</td>
+                        <td rowspan="7">Medium</td>
+                        <td rowspan="7">IT Factory</td>
+                        <td rowspan="7">10/Nov/23 02:03 PM</td>
+                        <td rowspan="7">FAIL</td>
+                        <td rowspan="7">DNT-56 | DNT-56,DNT-56,DNT-56,DNT-56</td>
+                        <td rowspan="7">10/Nov/23 01:44 PM</td>
+                        <td rowspan="7"></td>
+                        <td rowspan="7"></td>
+                        <td rowspan="7"></td>
+                        <td rowspan="7"></td>
+                        <td rowspan="7"></td>
+                        
+                            <td>9ed1052e-8384-4082-aa8f-45a79ce06e0f</td>
+                            <td>1</td>
+                            <td><p>From the Home page drag the mouse over the Desktops category</p></td>
+                            <td></td>
+                            <td><p>The drop down meniu for the Desktops category successfully displayed the sub-categories</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>c5573e8b-6ea1-4d12-a7da-f80a80c987bd</td>
+                            <td>2</td>
+                            <td><p>From the Home page drag the mouse over the Laptops&Notebooks category</p></td>
+                            <td></td>
+                            <td><p>The drop down meniu for the Laptor&Notebooks category successfully displayed the sub-categories</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>5d303429-d4e0-4f1b-bfdc-5d2dc739b9db</td>
+                            <td>3</td>
+                            <td><p>From the Home page drag the mouse over the Components category</p></td>
+                            <td></td>
+                            <td><p>The drop down meniu for the Components category successfully displayed the sub-categories</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>67dd8999-4113-4cc6-817b-68159c8cbe4d</td>
+                            <td>4</td>
+                            <td><p>From the Home page drag the mouse over the Tablets category</p></td>
+                            <td></td>
+                            <td><p>The drop down meniu for the Tablets category did not displayed the sub-categories</p></td>
+                            <td>FAIL</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>0cc6aba9-06ae-467c-8ea7-b196697d2e34</td>
+                            <td>5</td>
+                            <td><p>From the Home page drag the mouse over the Software category</p></td>
+                            <td></td>
+                            <td><p>The drop down meniu for the Software category did not displayed the sub-categories</p></td>
+                            <td>FAIL</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>0711ece8-d2ff-4e64-a12d-63d760de9a2d</td>
+                            <td>6</td>
+                            <td><p>From the Home page drag the mouse over the Phones&PDAs category</p></td>
+                            <td></td>
+                            <td><p>The drop down meniu for the Phones&PDAs category did not displayed the sub-categories</p></td>
+                            <td>FAIL</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>6a65d0d6-0a17-422b-b139-ffc2fc824cee</td>
+                            <td>7</td>
+                            <td><p>From the Home page drag the mouse over the Cameras category</p></td>
+                            <td></td>
+                            <td><p>The drop down meniu for the Cameras  category did not displayed the sub-categories</p></td>
+                            <td>FAIL</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="8">0cc39f90-fc17-4f72-b892-85fb17fc7cf2</td>
+                        <td rowspan="8">Ad hoc</td>
+                        <td rowspan="8"></td>
+                        <td rowspan="8">DNT-55</td>
+                        <td rowspan="8">When a parent category is clicked the category page successfully opens and displays all the products within that category</td>
+                        <td rowspan="8">Anti Razvan-Ionut_TMTA13</td>
+                        <td rowspan="8"></td>
+                        <td rowspan="8">Version 3.0.2.0</td>
+                        <td rowspan="8">Medium</td>
+                        <td rowspan="8">IT Factory</td>
+                        <td rowspan="8">10/Nov/23 02:04 PM</td>
+                        <td rowspan="8">FAIL</td>
+                        <td rowspan="8">DNT-57 | DNT-57,DNT-57,DNT-57,DNT-57</td>
+                        <td rowspan="8">10/Nov/23 01:44 PM</td>
+                        <td rowspan="8"></td>
+                        <td rowspan="8"></td>
+                        <td rowspan="8"></td>
+                        <td rowspan="8"></td>
+                        <td rowspan="8"></td>
+                        
+                            <td>938c03ec-4afa-44d8-9c4f-d3411cdacd9d</td>
+                            <td>1</td>
+                            <td><p>From the Home page click the Desktops category</p></td>
+                            <td></td>
+                            <td><p>The Desktops category page did not oppend</p></td>
+                            <td>FAIL</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>e5317c85-d60b-494e-8f51-dd3aeb332976</td>
+                            <td>2</td>
+                            <td><p>From the Home page click the Laptops&Notebooks category</p></td>
+                            <td></td>
+                            <td><p>The Laptops&Notebooks category page did not oppend</p></td>
+                            <td>FAIL</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>11f878eb-95c1-43ef-8015-668de6f7feba</td>
+                            <td>3</td>
+                            <td><p>From the Home page click the Components category</p></td>
+                            <td></td>
+                            <td><p>The Components category page did not oppend</p></td>
+                            <td>FAIL</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>5091a58f-0676-47f7-8fb7-10a4a9271780</td>
+                            <td>4</td>
+                            <td><p>From the Home page click the Tablets category</p></td>
+                            <td></td>
+                            <td><p>The Tablets category page successfully oppend and all the  products within the category are displayed</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>03ef1f61-e326-4f6e-8ecb-070e45d4f2d8</td>
+                            <td>5</td>
+                            <td><p>From the Home page click the Software category</p></td>
+                            <td></td>
+                            <td><p>The Software category page successfully oppend</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>285fdb0e-ee86-4692-bbec-1a7b30c372a6</td>
+                            <td>6</td>
+                            <td><p>From the Home page click the Phones&PDAs category</p></td>
+                            <td></td>
+                            <td><p>The Phones&PDAs category page successfully oppend and all the  products within the category are displayed</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>a448544c-3bf7-476c-8c0e-44a4d99fcc72</td>
+                            <td>7</td>
+                            <td><p>From the Home page click the Cameras category</p></td>
+                            <td></td>
+                            <td><p>The Cameras category page successfully oppend and all the  products within the category are displayed</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>9bf0c231-e961-4e3a-82e5-72b340306150</td>
+                            <td>8</td>
+                            <td><p>From the Home page click the MP3 Players category</p></td>
+                            <td></td>
+                            <td><p>The MP3 Players category page did not oppend</p></td>
+                            <td>FAIL</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="2">c780c4b8-fe48-425c-8379-44283b0b28d3</td>
+                        <td rowspan="2">Ad hoc</td>
+                        <td rowspan="2"></td>
+                        <td rowspan="2">DNT-39</td>
+                        <td rowspan="2">In the search box the customers can search for a product within the store&#x27;s product categories</td>
+                        <td rowspan="2">Anti Razvan-Ionut_TMTA13</td>
+                        <td rowspan="2"></td>
+                        <td rowspan="2">Version 3.0.2.0</td>
+                        <td rowspan="2">Medium</td>
+                        <td rowspan="2">IT Factory</td>
+                        <td rowspan="2">08/Nov/23 04:41 PM</td>
+                        <td rowspan="2">FAIL</td>
+                        <td rowspan="2">DNT-40 | DNT-40</td>
+                        <td rowspan="2">08/Nov/23 04:41 PM</td>
+                        <td rowspan="2"></td>
+                        <td rowspan="2"></td>
+                        <td rowspan="2"></td>
+                        <td rowspan="2"></td>
+                        <td rowspan="2"></td>
+                        
+                            <td>1e483b6b-38f8-42d9-9d9d-4dc1f28d5f3f</td>
+                            <td>1</td>
+                            <td><p>Type the product to search for it</p></td>
+                            <td><p>Type iPhone in the search box</p></td>
+                            <td></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>c1bf65c8-e50e-43d6-8858-51f02d37f1ce</td>
+                            <td>2</td>
+                            <td><p>Click on the search button</p></td>
+                            <td></td>
+                            <td><p>The page did not return the product that was searched -Internal Server Error! was displayed</p></td>
+                            <td>FAIL</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="3">4e4d1443-4f97-4f49-9543-45043b2669d8</td>
+                        <td rowspan="3">Ad hoc</td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3">DNT-64</td>
+                        <td rowspan="3">When the banner is clicked on, the product on the banner&#x27;s page successfully oppens</td>
+                        <td rowspan="3">Anti Razvan-Ionut_TMTA13</td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3">Version 3.0.2.0</td>
+                        <td rowspan="3">Medium</td>
+                        <td rowspan="3">IT Factory</td>
+                        <td rowspan="3">11/Nov/23 02:03 PM</td>
+                        <td rowspan="3">FAIL</td>
+                        <td rowspan="3">DNT-66,DNT-67 | DNT-66,DNT-67</td>
+                        <td rowspan="3">11/Nov/23 01:28 PM</td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3"></td>
+                        
+                            <td>60653079-c477-4928-b3a4-fe31c3990281</td>
+                            <td>1</td>
+                            <td><p>From Home page click the first banner (with the iPhone in it)</p></td>
+                            <td></td>
+                            <td><p>The product`s page did not open, it oppend the page from another product (Samsung Galaxy Tab 10.1)</p></td>
+                            <td>FAIL</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>54862ad6-1458-404e-9495-7cc02e06567e</td>
+                            <td>2</td>
+                            <td><p>Return to Home page</p></td>
+                            <td></td>
+                            <td><p>Home page is successfully displayed</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>2a8d7d80-b12a-4627-8c51-2467e968ebdc</td>
+                            <td>3</td>
+                            <td><p>From Home page click the second banner (with the MacBook in it)</p></td>
+                            <td></td>
+                            <td><p>The product`s page did not open. </br>No page did open.</p></td>
+                            <td>FAIL</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="8">c68431a3-9af1-41bf-bd95-5f2ab5b2e8ed</td>
+                        <td rowspan="8">Ad hoc</td>
+                        <td rowspan="8"></td>
+                        <td rowspan="8">DNT-75</td>
+                        <td rowspan="8">The product page contains Product image section</td>
+                        <td rowspan="8">Anti Razvan-Ionut_TMTA13</td>
+                        <td rowspan="8"></td>
+                        <td rowspan="8">Version 3.0.2.0</td>
+                        <td rowspan="8">Medium</td>
+                        <td rowspan="8">IT Factory</td>
+                        <td rowspan="8">11/Nov/23 08:04 PM</td>
+                        <td rowspan="8">FAIL</td>
+                        <td rowspan="8">DNT-81 | DNT-81</td>
+                        <td rowspan="8">11/Nov/23 07:58 PM</td>
+                        <td rowspan="8"></td>
+                        <td rowspan="8"></td>
+                        <td rowspan="8"></td>
+                        <td rowspan="8"></td>
+                        <td rowspan="8"></td>
+                        
+                            <td>37d1c746-131c-4ce4-ab3a-440b189fc9c4</td>
+                            <td>1</td>
+                            <td><p>Go to Home Page -&#62; Desktops -&#62; Show All Desktops and select HP LP3065</p></td>
+                            <td></td>
+                            <td><p>The page for HP LP3065 is successfully open</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>b245e2db-f6ce-4d36-8563-32ea7db43586</td>
+                            <td>2</td>
+                            <td><p>Search for product image</p></td>
+                            <td></td>
+                            <td><p>The image is displayed on the left-side</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>2bc4a5c2-cf8b-4de1-b877-407bdda8c451</td>
+                            <td>3</td>
+                            <td><p>Click on the main image</p></td>
+                            <td></td>
+                            <td><p>The image expanded within the window and the other images can be watched to by clicking the right or left side on the image or by clicking the arrows</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>f74f4222-4d99-4c9a-8b3f-46945d342099</td>
+                            <td>4</td>
+                            <td><p>Go to Top Meniu -&#62; MP3 Players -&#62; Show All MP3 Players and select iPod Touch</p></td>
+                            <td></td>
+                            <td><p>The page for iPod Touch is successfully open</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>eada4c5e-2da0-45c3-888a-662b2cf22319</td>
+                            <td>5</td>
+                            <td><p>Search for product image</p></td>
+                            <td></td>
+                            <td><p>The image is displayed on the left-side</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>966f997d-c4f5-44f3-bff3-fe320e3364cb</td>
+                            <td>6</td>
+                            <td><p>Click on the main image</p></td>
+                            <td></td>
+                            <td><p>The image expanded within the window and the other images can be watched to by clicking the right or left side on the image or by clicking the arrows</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>b7377908-6ae2-48b2-a63b-013f577de51b</td>
+                            <td>7</td>
+                            <td><p>Go to Top Meniu -&#62; Components -&#62; Monitors and select Apple Cinema 30"</p></td>
+                            <td></td>
+                            <td><p>The page for Apple Cinema 30"  is successfully open</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>82c1e980-d9b4-438e-8760-c9d426dfa25b</td>
+                            <td>8</td>
+                            <td><p>Search for product image</p></td>
+                            <td></td>
+                            <td><p>The image is displayed on the left-side, but under the main image are photos from different products, not for the selected product</p></td>
+                            <td>FAIL</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="19">1893a07c-9cd0-4322-88d1-cd8f92f3ceb3</td>
+                        <td rowspan="19">Ad hoc</td>
+                        <td rowspan="19"></td>
+                        <td rowspan="19">DNT-77</td>
+                        <td rowspan="19">The product page contains Cart section</td>
+                        <td rowspan="19">Anti Razvan-Ionut_TMTA13</td>
+                        <td rowspan="19"></td>
+                        <td rowspan="19">Version 3.0.2.0</td>
+                        <td rowspan="19">Medium</td>
+                        <td rowspan="19">IT Factory</td>
+                        <td rowspan="19">11/Nov/23 08:23 PM</td>
+                        <td rowspan="19">FAIL</td>
+                        <td rowspan="19">DNT-82 | DNT-82,DNT-82</td>
+                        <td rowspan="19">11/Nov/23 07:58 PM</td>
+                        <td rowspan="19"></td>
+                        <td rowspan="19"></td>
+                        <td rowspan="19"></td>
+                        <td rowspan="19"></td>
+                        <td rowspan="19"></td>
+                        
+                            <td>9436e4b8-6555-4e0d-b136-aa1b69a4653c</td>
+                            <td>1</td>
+                            <td><p>Go to Home Page -&#62; Desktops -&#62; Show All Desktops and select HP LP3065</p></td>
+                            <td></td>
+                            <td><p>The page for HP LP3065 is successfully open</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>4389b9ee-b6a5-44fc-b875-041e03170408</td>
+                            <td>2</td>
+                            <td><p>Search for the Cart section</p></td>
+                            <td></td>
+                            <td><p>The Add to Wish List button, Compare this Product button, Add to Cart button and the quantity box are displayed on the right-side from the main picture</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>b0acd744-71e3-4a63-855d-5bc815f74a51</td>
+                            <td>3</td>
+                            <td><p>Click on the Add to Wishlist button</p></td>
+                            <td></td>
+                            <td><p>The product is succesfully added to the Wish List</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>c42aa74c-4b8d-4325-9f46-24232ff1f3b3</td>
+                            <td>4</td>
+                            <td><p>Click on the Compare this Product button</p></td>
+                            <td></td>
+                            <td><p>The product is succesfully added to the comparison</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>e02cccc9-1d8b-4940-b059-709335b22394</td>
+                            <td>5</td>
+                            <td><p>Click on the quantity box</p></td>
+                            <td><p>Qty = 5</p></td>
+                            <td><p>The quantity for the product was updated</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>50ff9124-9e21-4beb-b135-afd6965efa88</td>
+                            <td>6</td>
+                            <td><p>Click on the Add to Cart Button</p></td>
+                            <td></td>
+                            <td><p>5 pieces for the product were successfully added to the cart</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>20215610-25cb-4962-9d81-31f5bb2df32a</td>
+                            <td>7</td>
+                            <td><p>Go to Top Meniu -&#62; MP3 Players -&#62; Show All MP3 Players and select iPod Touch</p></td>
+                            <td></td>
+                            <td><p>The page for iPod Touch is successfully open</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>a68b96bf-e22c-41f6-9321-5ea83dea40fb</td>
+                            <td>8</td>
+                            <td><p>Search for the Cart section</p></td>
+                            <td></td>
+                            <td><p>The Add to Wish List button, Compare this Product button, Add to Cart button and the quantity box are displayed on the right-side from the main picture</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>02022ec4-548e-474e-b22d-56022da39404</td>
+                            <td>9</td>
+                            <td><p>Click on the Add to Wishlist button</p></td>
+                            <td></td>
+                            <td><p>The product is succesfully added to the Wish List</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>c4544918-537a-4eb3-9e51-5da909b68ed4</td>
+                            <td>10</td>
+                            <td><p>Click on the Compare this Product button</p></td>
+                            <td></td>
+                            <td><p>The product is succesfully added to the comparison</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>fd691bb1-a5dd-4027-b971-094e87da030f</td>
+                            <td>11</td>
+                            <td><p>Click on the quantity box</p></td>
+                            <td><p>Qty = 3</p></td>
+                            <td><p>The quantity for the product was updated</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>a81a8ff5-def8-4e07-9698-3232dcb3f776</td>
+                            <td>12</td>
+                            <td><p>Click on the Add to Cart Button</p></td>
+                            <td></td>
+                            <td><p>3 pieces for the product were successfully added to the cart</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>8ce69947-a07a-4a2b-8f0e-620c3899b8fb</td>
+                            <td>13</td>
+                            <td><p>Go to Top Meniu -&#62; Components -&#62; Monitors and select Apple Cinema 30"</p></td>
+                            <td></td>
+                            <td><p>The page for Apple Cinema 30"  is successfully open</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>7a5309f2-10f0-41b8-bcab-fa5c0d107111</td>
+                            <td>14</td>
+                            <td><p>Search for the Cart section</p></td>
+                            <td></td>
+                            <td><p>The Add to Wish List button, Compare this Product button, Add to Cart button and the quantity box are displayed on the right-side from the main picture</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>3fea82a6-cb6d-4b9c-aa74-f37bd39724b8</td>
+                            <td>15</td>
+                            <td><p>Click on the Add to Wishlist button</p></td>
+                            <td></td>
+                            <td><p>The product is succesfully added to the Wish List</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>9eaea9f1-c45f-4867-8283-eed7c06cfd99</td>
+                            <td>16</td>
+                            <td><p>Click on the Compare this Product button</p></td>
+                            <td></td>
+                            <td><p>The product is succesfully added to the comparison</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>5bb1b0b1-e021-405e-b677-b7c6205bd2f9</td>
+                            <td>17</td>
+                            <td><p>Click on the quantity box</p></td>
+                            <td><p>Qty = 4</p></td>
+                            <td><p>The quantity for the product was updated</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>4e197052-9f3e-46f3-9e34-76d91047ff1b</td>
+                            <td>18</td>
+                            <td><p>Complete the Required Available Options</p></td>
+                            <td><p>Radio : Medium (+$26.00)</br>Checkbox : Checkbox 3 (+$38.00)</br>Text : test</br>Select : Green (+$3.20)</br>Textarea : test</br>File : select a  PNG file and a docx file</br>Date : 2020-02-20</br>Time : 22:25</br>Date & Time : 2020-02-20 22:25</p></td>
+                            <td><p>The file can not be uploaded</p></td>
+                            <td>FAIL</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>155a0f7c-91b6-4076-abf5-d39af2177085</td>
+                            <td>19</td>
+                            <td><p>Click on the Add to Cart Button</p></td>
+                            <td></td>
+                            <td><p>The 4 pieces for the product can not be added to the cart</p></td>
+                            <td>FAIL</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="9">f070b96a-89b3-4ae1-a71d-5f3641e63753</td>
+                        <td rowspan="9">Ad hoc</td>
+                        <td rowspan="9"></td>
+                        <td rowspan="9">DNT-78</td>
+                        <td rowspan="9">The product page contains Rating section</td>
+                        <td rowspan="9">Anti Razvan-Ionut_TMTA13</td>
+                        <td rowspan="9"></td>
+                        <td rowspan="9">Version 3.0.2.0</td>
+                        <td rowspan="9">Medium</td>
+                        <td rowspan="9">IT Factory</td>
+                        <td rowspan="9">11/Nov/23 08:35 PM</td>
+                        <td rowspan="9">FAIL</td>
+                        <td rowspan="9">DNT-83 | DNT-83,DNT-83,DNT-83,DNT-84,DNT-84,DNT-84</td>
+                        <td rowspan="9">11/Nov/23 07:58 PM</td>
+                        <td rowspan="9"></td>
+                        <td rowspan="9"></td>
+                        <td rowspan="9"></td>
+                        <td rowspan="9"></td>
+                        <td rowspan="9"></td>
+                        
+                            <td>94a25754-1615-42fa-b1ee-5e3d1b41bea2</td>
+                            <td>1</td>
+                            <td><p>Go to Home Page -&#62; Desktops -&#62; Show All Desktops and select HP LP3065</p></td>
+                            <td></td>
+                            <td><p>The page for HP LP3065 is successfully open</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>b3cb5709-cd0c-4246-8e2a-0f23791c92d3</td>
+                            <td>2</td>
+                            <td><p>Search for the raiting area</p></td>
+                            <td></td>
+                            <td><p>Under the cart the page contains number of reviews / Write a review</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>8912722a-84aa-4b69-af27-ee706fd98a48</td>
+                            <td>3</td>
+                            <td><p>Click on the stars for raiting the product</p></td>
+                            <td></td>
+                            <td><p>The stars can not be clicked so the product can not be rated</p></td>
+                            <td>FAIL</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>b027e420-b275-4ef4-af97-c418c581af05</td>
+                            <td>4</td>
+                            <td><p>Go to Top Meniu -&#62; MP3 Players -&#62; Show All MP3 Players and select iPod Touch</p></td>
+                            <td></td>
+                            <td><p>The page for iPod Touch is successfully open</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>093e31ec-756a-4443-8207-a476684aace1</td>
+                            <td>5</td>
+                            <td><p>Search for the raiting area</p></td>
+                            <td></td>
+                            <td><p>Under the cart the page contains number of reviews / Write a review</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>14df6f1a-a24f-471a-813f-6cafbead2899</td>
+                            <td>6</td>
+                            <td><p>Click on the stars for raiting the product</p></td>
+                            <td></td>
+                            <td><p>The stars can not be clicked so the product can not be rated</p></td>
+                            <td>FAIL</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>f5c76858-3fbd-45da-86ea-c259026c9f20</td>
+                            <td>7</td>
+                            <td><p>Go to Top Meniu -&#62; Components -&#62; Monitors and select Apple Cinema 30"</p></td>
+                            <td></td>
+                            <td><p>The page for Apple Cinema 30"  is successfully open</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>9c452890-5902-4b44-9fdb-31086d200785</td>
+                            <td>8</td>
+                            <td><p>Search for the raiting area</p></td>
+                            <td></td>
+                            <td><p>Under the cart the page contains number of reviews / Write a review</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>97eef95e-5cc4-402b-9916-f8c00c3458af</td>
+                            <td>9</td>
+                            <td><p>Click on the stars for raiting the product</p></td>
+                            <td></td>
+                            <td><p>The stars can not be clicked so the product can not be rated</p></td>
+                            <td>FAIL</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="6">100022a6-3eb5-4c91-9fc9-f7987c1d85d8</td>
+                        <td rowspan="6">Ad hoc</td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6">DNT-87</td>
+                        <td rowspan="6">The product page contains Sharing section</td>
+                        <td rowspan="6">Anti Razvan-Ionut_TMTA13</td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6">Version 3.0.2.0</td>
+                        <td rowspan="6">Medium</td>
+                        <td rowspan="6">IT Factory</td>
+                        <td rowspan="6">11/Nov/23 09:19 PM</td>
+                        <td rowspan="6">FAIL</td>
+                        <td rowspan="6">DNT-84 | DNT-84,DNT-84,DNT-84</td>
+                        <td rowspan="6">11/Nov/23 09:18 PM</td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6"></td>
+                        
+                            <td>be36403a-9447-4ee8-808a-a2f011402fcb</td>
+                            <td>1</td>
+                            <td><p>Go to Home Page -&#62; Desktops -&#62; Show All Desktops and select HP LP3065</p></td>
+                            <td></td>
+                            <td><p>The page for HP LP3065 is successfully open</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>31476e53-f600-4745-a1e8-535a67d593f0</td>
+                            <td>2</td>
+                            <td><p>Search for the sharing section unde the cart</p></td>
+                            <td></td>
+                            <td><p>The sharing section does not  exist under the cart or in the page</p></td>
+                            <td>FAIL</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>c645d8de-eea5-4737-8885-4ea1ac15e3b3</td>
+                            <td>3</td>
+                            <td><p>Go to Top Meniu -&#62; MP3 Players -&#62; Show All MP3 Players and select iPod Touch</p></td>
+                            <td></td>
+                            <td><p>The page for iPod Touch is successfully open</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>9f6f0ce0-07e8-480a-a779-a1567a86e6c3</td>
+                            <td>4</td>
+                            <td><p>Search for the sharing section unde the cart</p></td>
+                            <td></td>
+                            <td><p>The sharing section does not  exist under the cart or in the page</p></td>
+                            <td>FAIL</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>d6d87e9d-2edd-4e59-a1b0-f1b03ebdeb39</td>
+                            <td>5</td>
+                            <td><p>Go to Top Meniu -&#62; Components -&#62; Monitors and select Apple Cinema 30"</p></td>
+                            <td></td>
+                            <td><p>The page for Apple Cinema 30"  is successfully open</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>46e641e8-5a9c-465f-a583-9fbe4c4eca96</td>
+                            <td>6</td>
+                            <td><p>Search for the sharing section unde the cart</p></td>
+                            <td></td>
+                            <td><p>The sharing section does not  exist under the cart or in the page</p></td>
+                            <td>FAIL</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="4">adfb3577-63ce-4ae3-91a6-4e5263323d0a</td>
+                        <td rowspan="4">Ad hoc</td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4">DNT-88</td>
+                        <td rowspan="4">A product can be added to cart from the comparison section</td>
+                        <td rowspan="4">Anti Razvan-Ionut_TMTA13</td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4">Version 3.0.2.0</td>
+                        <td rowspan="4">Medium</td>
+                        <td rowspan="4">IT Factory</td>
+                        <td rowspan="4">12/Nov/23 12:08 PM</td>
+                        <td rowspan="4">FAIL</td>
+                        <td rowspan="4">DNT-89 | DNT-89,DNT-89</td>
+                        <td rowspan="4">12/Nov/23 11:59 AM</td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4"></td>
+                        <td rowspan="4"></td>
+                        
+                            <td>bdc627f3-969c-40e0-a984-325f0ce5a9bd</td>
+                            <td>1</td>
+                            <td><p>Open the Product Comparison page</p></td>
+                            <td></td>
+                            <td><p>The details for the products from the comparison list are displayed and the 'Add to Cart' button is at the buttom at every product from this list</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>ef9eea68-9fec-4bf9-ae41-44b7a8e7fd5f</td>
+                            <td>2</td>
+                            <td><p>Click 'Add to Cart' button for the first product from the comparison list</p></td>
+                            <td><p>First product from the comparison list : HP LP3065</p></td>
+                            <td><p>The product is not added to the shopping cart, instead the product page is oppend</p></td>
+                            <td>FAIL</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>d6bdd066-dd26-4616-aeac-f9c84d1908ae</td>
+                            <td>3</td>
+                            <td><p>Click 'Add to Cart' button for the second product from the comparison list</p></td>
+                            <td><p>Second product from the comparison list : iPod Touch</p></td>
+                            <td><p>The product is successfully added to the shopping cart</p></td>
+                            <td>PASS</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>362cad44-dc7d-4ebd-b8c6-8b6fe58fa987</td>
+                            <td>4</td>
+                            <td><p>Click 'Add to Cart' button for the third product from the comparison list</p></td>
+                            <td><p>Third product from the comparison list : Apple Cinema 30"</p></td>
+                            <td><p>The product is not added to the shopping cart, instead the product page is oppend</p></td>
+                            <td>FAIL</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+            </tbody>
+        </table>
+    </body>
+</html>
