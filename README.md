@@ -153,6 +153,7 @@ Test case-urile au fost executate prin Zephyr Squad si pot fi analizate: [Test C
 
 Bug-urile generate in urma executarii testelor: [Bugs](https://github.com/RazvanAnti/Proiect-Final-Jira/blob/main/Bugs.pdf)
 
+Bugs:
 * Search box does not return the products that was searched it return an Error
 
 * Contact emergency can be added with an incorect type of mobile phone number
