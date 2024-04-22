@@ -59,16 +59,12 @@ Testarea automata este de asemenea in afara domeniului de aplicare.
 Riscurile de proiect: Resursele insuficiente se refera fie la lipsa de personal si de timp in vederea realizarii testarii in profunzime/tuturor defectelor. Stabilirea unui program neclar sau instabil reprezinta un risc asociat tehnicii agile. Un risc probabil mai ales in cazul unor termene limita stranse, care pot veni in completarea la numeroase schimbari in cerinte (testare incompleta sau chiar superficiala). Problemele de comunicare sau posibila incompatibilitate de a exprima clar notiuni de natura tehnica, importante de altfel pentru serviciile clientului. Competentele reduse ale personalului, un risc posibil mai ales in cazul in care se descopera o multitudine de defecte si bug-uri complexe.
 
 Specific proiectului: 
-Întârzierea lansării website-ului din cauza unor neclarități în specificațiile cerințelor.
-Lipsa de claritate în cerințe poate determina echipa de dezvoltare să implementeze o funcționalitate diferită de ceea ce și-a imaginat clientul.
-O prelungire a timpului de lansare din cauza întârzierilor în implementarea unui sistem de procesare a plăților de către un furnizor terț.
+* Întârzierea lansării website-ului din cauza unor neclarități în specificațiile cerințelor.
+* Lipsa de claritate în cerințe poate determina echipa de dezvoltare să implementeze o funcționalitate diferită de ceea ce și-a imaginat clientul.
+* O prelungire a timpului de lansare din cauza întârzierilor în implementarea unui sistem de procesare a plăților de către un furnizor terț.
 
 Riscurile de produs: 
-* Posibilitatea existentei unor defecte nedeclarate anterior: mai exact neidentificarea unor defecte cu un grad sporit de importanta, defecte care pot impacta consistent nivelul de calitate al produsului.
-* Interfata de utilizator necorespunzatoare: Ui contraintuitiv.
-* Performantele slabe in ceea ce priveste timpii de incarcare sa raspunsurile foarte intarziate la comenzi.
-* Riscurile de securitate vor aparea mai ales atunci cand atacurile cibernetice vizeaza website-ul clientului.
-* Fiabilitatea redusa a aplicatiei, riscul de crush frecvent.
+Posibilitatea existentei unor defecte nedeclarate anterior: mai exact neidentificarea unor defecte cu un grad sporit de importanta, defecte care pot impacta consistent nivelul de calitate al produsului. Interfata de utilizator necorespunzatoare: Ui contraintuitiv. Performantele slabe in ceea ce priveste timpii de incarcare sa raspunsurile foarte intarziate la comenzi. Riscurile de securitate vor aparea mai ales atunci cand atacurile cibernetice vizeaza website-ul clientului. Fiabilitatea redusa a aplicatiei, riscul de crush frecvent.
 
 Specific produsului:
 * Furtul datelor de carduri de credit din cauza unei vulnerabilități de securitate în sistemul de procesare a plăților.
