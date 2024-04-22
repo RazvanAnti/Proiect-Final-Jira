@@ -63,13 +63,18 @@ Specific proiectului:
 Lipsa de claritate în cerințe poate determina echipa de dezvoltare să implementeze o funcționalitate diferită de ceea ce și-a imaginat clientul.
 O prelungire a timpului de lansare din cauza întârzierilor în implementarea unui sistem de procesare a plăților de către un furnizor terț.
 
-Riscurile de produs: Posibilitatea existentei unor defecte nedeclarate anterior: mai exact neidentificarea unor defecte cu un grad sporit de importanta, defecte care pot impacta consistent nivelul de calitate al produsului. Interfata de utilizator necorespunzatoare: Ui contraintuitiv. Performantele slabe in ceea ce priveste timpii de incarcare sa raspunsurile foarte intarziate la comenzi. Riscurile de securitate vor aparea mai ales atunci cand atacurile cibernetice vizeaza website-ul clientului. Fiabilitatea redusa a aplicatiei, riscul de crush frecvent.
+Riscurile de produs: 
+* Posibilitatea existentei unor defecte nedeclarate anterior: mai exact neidentificarea unor defecte cu un grad sporit de importanta, defecte care pot impacta consistent nivelul de calitate al produsului.
+* Interfata de utilizator necorespunzatoare: Ui contraintuitiv.
+* Performantele slabe in ceea ce priveste timpii de incarcare sa raspunsurile foarte intarziate la comenzi.
+* Riscurile de securitate vor aparea mai ales atunci cand atacurile cibernetice vizeaza website-ul clientului.
+* Fiabilitatea redusa a aplicatiei, riscul de crush frecvent.
 
 Specific produsului:
-Furtul datelor de carduri de credit din cauza unei vulnerabilități de securitate în sistemul de procesare a plăților.
-O rată mare de abandon a site-ului din cauza unui timp de încărcare prelungit al paginilor de produs.
-Implementarea unei funcționalități care nu corespunde cu ceea ce și-a imaginat clientul din cauza unei comunicări neclare.
-Un serviciu de livrare întârzie livrarea comenzilor din cauza unor probleme tehnice la nivelul infrastructurii lor.
+* Furtul datelor de carduri de credit din cauza unei vulnerabilități de securitate în sistemul de procesare a plăților.
+* O rată mare de abandon a site-ului din cauza unui timp de încărcare prelungit al paginilor de produs.
+* Implementarea unei funcționalități care nu corespunde cu ceea ce și-a imaginat clientul din cauza unei comunicări neclare.
+* Un serviciu de livrare întârzie livrarea comenzilor din cauza unor probleme tehnice la nivelul infrastructurii lor.
 
 # 6. Evaluarea criteriilor de intrare
 In urma implementarii planului de testare, criteriile de intrare au fost atinse, iar procesul poate continua, el putandu-se modifica datorita abordarii de tip agile. 
