@@ -76,6 +76,7 @@ Specific produsului:
 In urma implementarii planului de testare, criteriile de intrare au fost atinse, iar procesul poate continua, el putandu-se modifica datorita abordarii de tip agile. 
 
 * Testele de monitorizare si control
+
 Monitorizarea si controlul se va realiza generand rapoarte periodice care sa coincida cu statusul curent al testelor. Astfel, Se vor face comparatii cantitative si masurabile ale planului original cu progresul testarii, se va verifica si analiza status report-ul, adaugarea de teste aditionale unde va fi necesar (conform evolutiei proiectului si cerintelor ulterioare ale clientului, luand bineinteles in calcul renegocierea timpului de livrare si a pretului proiectului).
 
 
