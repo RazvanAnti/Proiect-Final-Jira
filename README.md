@@ -92,7 +92,7 @@ Specific proiectului pe care l-am realizat, am identificat urmatoarele riscuri d
 
 Urmatoarele criterii de intrare au fost definite in scopul inceperii proiectului de testare curent:
 
-
+???
 
 In urma implementarii planului de testare, criteriile de intrare au fost atinse, iar procesul poate continua, el putandu-se modifica datorita abordarii de tip agile. 
 
