@@ -1,5 +1,8 @@
 # Proiect-Final-Jira
 
+
+# 1. Sectiunea de testare, aspecte de business si management
+
  Scopul proiectului al cursului de Testare Manuala si Automata este utilizarea tuturor cunostintelor tehnice dobandite de-a lungul cursului si utilizarea lor in cazuri practice, intalnite in activitatea de zi cu zi.
 
 * Site testat: [OpenCart](https://docs.opencart.com/en-gb/introduction/)
@@ -8,20 +11,31 @@
 
 Proiectul prezinta 11 puncte principale, acestea facand referire la planul de testare, obiective si aspecte de business/management, dar si afisarea, respectiv analizarea tehnicilor de testare, bug-urilor, story-urilor din Jira.
 
-Tehnologii utilizate: Jira, Zephyr. Pentru utilizarea platformei Jira s-a folosit contul ItFactory, cont la care s-a creat proiectul cu numele Anti Razvan-Ionut TMTA13. De asemenea, a fost necesara si instalarea plug-in-ului Zephyr prin logarea ca Administrator, accesarea meniului Jira si selectarea optiunii Apps, Find New Apps, s-a cautat Zephyr for Jira si s-a accesat rezultatul cautarii. Apoi s-a instalat plug-in-ul. De asemenea, proiectul in cauza s-a folosit si de documentatia API a website-ului, link-ul fiind furnizat mai sus.             
+Tehnologii utilizate: Jira, Zephyr. Pentru utilizarea platformei Jira s-a folosit contul ItFactory. De asemenea, a fost necesara si instalarea plug-in-ului Zephyr prin logarea ca Administrator, accesarea meniului Jira si selectarea optiunii Apps, Find New Apps, s-a cautat Zephyr for Jira si s-a accesat rezultatul cautarii. Apoi s-a instalat plug-in-ul. De asemenea, proiectul in cauza s-a folosit si de documentatia API a website-ului, link-ul fiind furnizat mai sus.             
 
 Specificatii functionale:
 -> Pentru a putea crea si gestiona proiectul in cauza, s-a apela la progamul de tracking management Jira, adaugand plug-in-ul Zephyr in vederea unei utilizari targetate pe testare.
 Ca specificatii funtionale in Jira, s-au utilizat urmatoarele: Issue tracking, workflow-uri costumizabile, project management, custom fields, dashboard si rapoarte.
 
-# 1. Sectiunea de testare, aspecte de business si management
+* Ca principal epic avem: Store Front Module: modul care consta in interfata cu care clientul interactioneaza cu magazinul. Modulul cuprinde 7 story-uri: The header. The top menu. Slideshow. Footer. Product pages. Product compare. Shopping cart page.
 
-* 1.1. Planul de testare:
+Exenplu de story creat in scopul proiectului: 'Shopping Cart PAge'
+![image](https://github.com/RazvanAnti/Proiect-Final-Jira/assets/165046399/113f1570-24f9-4080-b20f-8445978c864b)
+
+* Pentru a putea urmari story-urile in dataliu: [PDF.Stories](https://github.com/RazvanAnti/Proiect-Final-Jira/blob/main/Stories.pdf)
+
+
+# 2. Procesul de Testare 
+
+## 2.1. Test Planning
+
+### Planul de Testare
+
 Planul de testare a fost creat pentru a putea detalia testarea principalelor si celor mai importante functionalitati ale site-ului Open cart.
 
 Planul identifica sectiunile si itemii de testare, functionalitatile de tipurile de teste, personalul, resursele si timpul implicate, incluzand si riscul asociat cu planul in cauza. Scopul documentului este deci acoperirea intregului plan de testare pentru website-ul OpenCart. Asadar pe langa cele mentionate mai sus, mentionam din nou planul, analiza, design-ul, implementarea, executia, finalizarea, sesiunile de monitorizare si control. Merita amintite si criteriile de intrare si iesire.
 
-- Impartirea rolurilor si responsabilitatilor: 
+### Impartirea rolurilor si responsabilitatilor
 
 
 | Nume tester         | Responsabilitati            |
@@ -32,7 +46,8 @@ Planul identifica sectiunile si itemii de testare, functionalitatile de tipurile
 | Damatarc Marian     | "Tools", "Reports"          |
 
 
-# 2. Definirea criteriilor de intrare
+### Definirea criteriilor de intrare
+
 - Trecerea tuturor smoke testurilor (acest simplu test de testare ne va putea ajuta la stabilirea starii generale a site-ului in vederea conturarii unui plan agile de testare).
 - Definirea cerintelor software minime:
 a. Incarcarea website-ului pe un server web. In cazul in care clientul nu dispune deja de un domeniu sau cont de web hosting, acestea pot fi achizitionate la preturi accesibile.
@@ -41,12 +56,12 @@ c. Urmatoaerle librarii PHP trebuiesc instalate in configuratia PHP: PHP 8.0 sau
 d. Urmatoarele setari trebuie activate: file_uploads, magic_quotes_gpc, register_globals, session_auto_start.
 - mediul de testare este activ si functional.
 
-# 3. Definirea criteriilor de iesire
+### Definirea criteriilor de iesire
 - 75% dintre teste vor trece, avand statusul "Passed"
 - Nu vor exista probleme critice in niciunul dintre modulele care are statusul Open
 - testele ulterioare sunt 100% "Passed" (trebuind sa ne asiguram ca testele introduse anterior nu vor da peste cap functionalitatile site-ului).
 
-# 4. Test scope
+### Test scope
 Teste în domeniul de aplicare:
 Includem aici modulele asupra carora s-a agreat aplicarea planului si strategiei de testare: Admin Interface, Catalog, Extensions, Sales, Marketing, System, Tools, Reports.
 
@@ -55,48 +70,48 @@ Amintim testele non-functionale precum cele de stres, performanta, dar si alte t
 Nu va axista QA support pentru versiunea de mobil a site-ului, respectiv aplicatia, testarea rezumandu-se doar la pagina web a clientului.
 Testarea automata este de asemenea in afara domeniului de aplicare.
 
-# 5. Riscurile asociate
-Riscurile de proiect: Resursele insuficiente se refera fie la lipsa de personal si de timp in vederea realizarii testarii in profunzime/tuturor defectelor. Stabilirea unui program neclar sau instabil reprezinta un risc asociat tehnicii agile. Un risc probabil mai ales in cazul unor termene limita stranse, care pot veni in completarea la numeroase schimbari in cerinte (testare incompleta sau chiar superficiala). Problemele de comunicare sau posibila incompatibilitate de a exprima clar notiuni de natura tehnica, importante de altfel pentru serviciile clientului. Competentele reduse ale personalului, un risc posibil mai ales in cazul in care se descopera o multitudine de defecte si bug-uri complexe.
+### Riscurile asociate
 
-Specific proiectului: 
-* Întârzierea lansării website-ului din cauza unor neclarități în specificațiile cerințelor.
-* Lipsa de claritate în cerințe poate determina echipa de dezvoltare să implementeze o funcționalitate diferită de ceea ce și-a imaginat clientul.
-* O prelungire a timpului de lansare din cauza întârzierilor în implementarea unui sistem de procesare a plăților de către un furnizor terț.
+<b>Riscurile de proiect</b>:
 
-Riscurile de produs: 
-Posibilitatea existentei unor defecte nedeclarate anterior: mai exact neidentificarea unor defecte cu un grad sporit de importanta, defecte care pot impacta consistent nivelul de calitate al produsului. Interfata de utilizator necorespunzatoare: Ui contraintuitiv. Performantele slabe in ceea ce priveste timpii de incarcare sa raspunsurile foarte intarziate la comenzi. Riscurile de securitate vor aparea mai ales atunci cand atacurile cibernetice vizeaza website-ul clientului. Fiabilitatea redusa a aplicatiei, riscul de crush frecvent.
+Riscurile de proiect care pot apare ain general intr-un proiect de testar software pot sa fie, de exemplu, urmatoarele:
 
-Specific produsului:
-* Furtul datelor de carduri de credit din cauza unei vulnerabilități de securitate în sistemul de procesare a plăților.
-* O rată mare de abandon a site-ului din cauza unui timp de încărcare prelungit al paginilor de produs.
-* Implementarea unei funcționalități care nu corespunde cu ceea ce și-a imaginat clientul din cauza unei comunicări neclare.
-* Un serviciu de livrare întârzie livrarea comenzilor din cauza unor probleme tehnice la nivelul infrastructurii lor.
+- Resursele insuficiente se refera fie la lipsa de personal si de timp in vederea realizarii testarii in profunzime/tuturor defectelor.
+- Stabilirea unui program neclar sau instabil reprezinta un risc asociat tehnicii agile. Un risc probabil mai ales in cazul unor termene limita stranse, care pot veni in completarea la numeroase schimbari in cerinte (testare incompleta sau chiar superficiala).
+- Problemele de comunicare sau posibila incompatibilitate de a exprima clar notiuni de natura tehnica, importante de altfel pentru serviciile clientului.
+- Competentele reduse ale personalului, un risc posibil mai ales in cazul in care se descopera o multitudine de defecte si bug-uri complexe.
 
-# 6. Evaluarea criteriilor de intrare
+Specific proiectului pe care l-am realizat, am identificat urmatoarele riscuri de proiect: 
+
+- Întârzierea lansării website-ului din cauza unor neclarități în specificațiile cerințelor.
+- Lipsa de claritate în cerințe poate determina echipa de dezvoltare să implementeze o funcționalitate diferită de ceea ce și-a imaginat clientul.
+- O prelungire a timpului de lansare din cauza întârzierilor în implementarea unui sistem de procesare a plăților de către un furnizor terț.
+
+
+### Evaluarea criteriilor de intrare
+
+Urmatoarele criterii de intrare au fost definite in scopul inceperii proiectului de testare curent:
+
+
+
 In urma implementarii planului de testare, criteriile de intrare au fost atinse, iar procesul poate continua, el putandu-se modifica datorita abordarii de tip agile. 
 
-* Testele de monitorizare si control
+## 2.2 Monitorizare si control
 
-Monitorizarea si controlul se va realiza generand rapoarte periodice care sa coincida cu statusul curent al testelor. Astfel, Se vor face comparatii cantitative si masurabile ale planului original cu progresul testarii, se va verifica si analiza status report-ul, adaugarea de teste aditionale unde va fi necesar (conform evolutiei proiectului si cerintelor ulterioare ale clientului, luand bineinteles in calcul renegocierea timpului de livrare si a pretului proiectului).
-
+Monitorizarea si controlul s-a realizat generand rapoarte periodice care sa coincida cu statusul curent al testelor. Astfel, Se vor face comparatii cantitative si masurabile ale planului original cu progresul testarii, se va verifica si analiza status report-ul, adaugarea de teste aditionale unde va fi necesar (conform evolutiei proiectului si cerintelor ulterioare ale clientului, luand bineinteles in calcul renegocierea timpului de livrare si a pretului proiectului).
 
 ![image](https://github.com/RazvanAnti/Proiect-Final-Jira/assets/165046399/1bb16c3f-d179-44f2-8be0-7e0e2f2b101d)
 
 
+## 2.3 Test Analysis
 
-# 7 Analiza tehnicilor de testare - Jira
-
-* Test Analysis
 Conform planului de testare, dar si prin documentatia primita de la client, putem demara elaborarea si testarea cerintelor de business, specificatiile de design, in vederea imbunatatirii loc, inlaturarea generalitatilor si ambiguitatilor, contradictii. Concret, putem considera ca ne aflam intr-o etapa de early testing, in care se discuta cu specialistii care sunt modulele cu impact cel mai mare asupra clientului.
 
-* Ca principal epic avem: Store Front Module: modul care consta in interfata cu care clientul interactioneaza cu magazinul. Modulul cuprinde 7 story-uri: The header. The top menu. Slideshow. Footer. Product pages. Product compare. Shopping cart page.
 
-* Pentru a putea urmari story-urile in dataliu: [PDF.Stories](https://github.com/RazvanAnti/Proiect-Final-Jira/blob/main/Stories.pdf)
+### 2.3.1 Functionalitati si conditii de testare
 
-Story 'Shopping Cart PAge'
-![image](https://github.com/RazvanAnti/Proiect-Final-Jira/assets/165046399/113f1570-24f9-4080-b20f-8445978c864b)
+Mai jos se pot regasi functionalitatile care au fost extrase pentru testare:
 
-* Conditii de testare:
 1. Testarea directionarii clientului catre sectiunea de Shopping Cart - pentru o rata de conversie mai buna
 2. Directionarea clientului catre Checkout - pentru a scurta customer jurney
 3. Top Menu este afisat pe fiecare pagina - pentru a avea un UI  intuitiv si rapid
@@ -108,34 +123,27 @@ Story 'Shopping Cart PAge'
 9. Sectiunea cosului de cumparaturi ofera un rezumat al produsului selectat - pentru a nu forta clientul sa paraseasca sectiunea de cumparare
 10. Clientul are optiunea adaugarii unui cupon in sectiunea de shopping cart - pentru a incuraja achizitionarea mai multor produse, a oferi o experienta de achizitie completa pe care o poate gasi la competitie. 
 
+In urma functionalitatilor de mai sus s-au definit urmatoarele conditii de testare:
 
-# 8 Test Design
-Test case-urile pentru website au fost create folosind Zephyr Squad. In urma analizei specificatiilor tehnice, designului de testare a acoperit test case-uri pentru modulul Store Front: 
+The shopping cart gives an overview of the product selected
+Company telephone number is displayed in the header
+The top menu is succesfully displayed on every page
+The product page contains Rating section
+The customer has an option to add a coupon code in the Shopping Cart
+The "Continue Shopping" button from the Shopping Cart links back to the homepage
+When a parent category is clicked the category page successfully oppens and displays all the products within that category
+Links the customer to the Wish List
+Links the customer to My Account
 
+## 2.4 Test Design
+
+Test case-urile pentru website au fost create folosind Zephyr Squad. In urma analizei specificatiilor tehnice, designului de testare a acoperit test case-uri pentru modulul Store Front.
 
 Modulul Store Front este parinte pentru o serie de 36 de teste, acestea avand prioritate medie:
 
-The shopping cart gives an overview of the product selected
-
-Company telephone number is displayed in the header
-
-The top menu is succesfully displayed on every page
-
-The product page contains Rating section
-
-The customer has an option to add a coupon code in the Shopping Cart
-
-The "Continue Shopping" button from the Shopping Cart links back to the homepage
-
-When a parent category is clicked the category page successfully oppens and displays all the products within that category
-
-Links the customer to the Wish List
-
-Links the customer to My Account
-
 Epicul, story-urile, test case-urile, bug-urile pot fi accesate in sectiunea de [aici](https://github.com/RazvanAnti/Proiect-Final-Jira/blob/aefdd2dda119b72bb1a4c18d35c21fa235b2ad76/Test%20cases.pdf)
 
- # 9 Test Implementation
+ ## 2.5 Test Implementation
 
 Pentru ca etapa executarii testelor sa poata inceapa, avem nevoie de prezenta unor elemente importante:
 Crearea unor preconditii aferente fiecarui test case
@@ -149,7 +157,7 @@ Descrierea pasilor unui test case, aici adaugand si test data, dar mai ales rezu
 Adaugarea unor sub-task-uri aferente test case-urilor acolo unde va fi necesar.
 
 
-# 10 Test Execution
+## 2.6 Test Execution
 
 Test case-urile au fost executate prin Zephyr Squad si pot fi analizate: [Test Cases](https://github.com/RazvanAnti/Proiect-Final-Jira/blob/main/Test%20cases.pdf)
 
@@ -168,7 +176,7 @@ Bugs:
 
 * Clicking on the second banner from the Slideshow did not oppend the product`s page, did not open any page
 
-# 11 Test Completion
+## 2.7 Test Completion
 
 Criteriile de iesire au fost evaluate si adaptate in functie de modificarile ulterioare, astfel incat, estimarile au suferit modificari si limite de timp si accesabilitate. Testele create ulterior au statusul Passed, iar defectele critice au fost inchise si documentate.
 
@@ -194,7 +202,7 @@ Story: Shopping Cart Page --> Links the customer to the Shopping Cart, Links the
  0 severitate ridicată, 7 medie, 3 redusă
 
 
-# Concluzie: 
+## 3. Concluzie: 
 In urma analizei defectelor, nu există bug-uri care pot duce la riscul unui impact ridicat în ceea ce privește imaginea de brand, decizia de cumpărare sau pierderea de clienți.
 
 Totuși, există bug-uri care îngreunează experiența de utilizare a clientului final, interacțiunea cu produsele. Impact de natură UI/UX conține 7 bug-uri cu severitate medie, 6 dintre acestea având un grad mediu de prioritate, 1 prioritate redusă.
@@ -203,3 +211,11 @@ Impactul cel mai redus s-a regăsit la aspecte precum imagini poziționate incor
 
 ![image](https://github.com/RazvanAnti/Proiect-Final-Jira/assets/165046399/92b0e0df-ec0d-478c-9c3b-ee9b693acf27)
 
+Riscurile de produs: 
+Posibilitatea existentei unor defecte nedeclarate anterior: mai exact neidentificarea unor defecte cu un grad sporit de importanta, defecte care pot impacta consistent nivelul de calitate al produsului. Interfata de utilizator necorespunzatoare: Ui contraintuitiv. Performantele slabe in ceea ce priveste timpii de incarcare sa raspunsurile foarte intarziate la comenzi. Riscurile de securitate vor aparea mai ales atunci cand atacurile cibernetice vizeaza website-ul clientului. Fiabilitatea redusa a aplicatiei, riscul de crush frecvent.
+
+Specific produsului:
+* Furtul datelor de carduri de credit din cauza unei vulnerabilități de securitate în sistemul de procesare a plăților.
+* O rată mare de abandon a site-ului din cauza unui timp de încărcare prelungit al paginilor de produs.
+* Implementarea unei funcționalități care nu corespunde cu ceea ce și-a imaginat clientul din cauza unei comunicări neclare.
+* Un serviciu de livrare întârzie livrarea comenzilor din cauza unor probleme tehnice la nivelul infrastructurii lor.
