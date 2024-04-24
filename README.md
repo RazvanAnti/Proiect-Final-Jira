@@ -126,14 +126,14 @@ Urmatoarele criterii de intrare au fost definite in scopul inceperii proiectului
 
 ## 2.2 Monitorizare si control
 
-Monitorizarea si controlul s-a realizat generand rapoarte periodice care sa coincida cu statusul curent al testelor. Astfel, Se vor face comparatii cantitative si masurabile ale planului original cu progresul testarii, se va verifica si analiza status report-ul, adaugarea de teste aditionale unde va fi necesar (conform evolutiei proiectului si cerintelor ulterioare ale clientului, luand bineinteles in calcul renegocierea timpului de livrare si a pretului proiectului).
+Monitorizarea si controlul s-a realizat generand rapoarte periodice care sa coincida cu statusul curent al testelor. Astfel, s-au facut comparatii cantitative si masurabile ale planului original cu progresul testarii, s-a verificat si analizat status report-ul, adaugarea de teste aditionale unde a fost necesar (conform evolutiei proiectului si cerintelor ulterioare ale clientului, luand bineinteles in calcul renegocierea timpului de livrare si a pretului proiectului).
 
 ![image](https://github.com/RazvanAnti/Proiect-Final-Jira/assets/165046399/1bb16c3f-d179-44f2-8be0-7e0e2f2b101d)
 
 
 ## 2.3 Test Analysis
 
-Conform planului de testare, dar si prin documentatia primita de la client, putem demara elaborarea si testarea cerintelor de business, specificatiile de design, in vederea imbunatatirii loc, inlaturarea generalitatilor si ambiguitatilor, contradictii. Concret, putem considera ca ne aflam intr-o etapa de early testing, in care se discuta cu specialistii care sunt modulele cu impact cel mai mare asupra clientului.
+Conform planului de testare, dar si prin documentatia primita de la client, s-au elaborat si testat de business, specificatiile de design, in vederea imbunatatirii loc, inlaturarea generalitatilor si ambiguitatilor, contradictii. Concret, aceasta etapa a fost una de early testing, in care s-a discutat cu specialistii care sunt modulele cu impact cel mai mare asupra clientului.
 
 
 ### 2.3.1 Functionalitati si conditii de testare
@@ -151,7 +151,7 @@ Mai jos se pot regasi functionalitatile care au fost extrase pentru testare:
 9. Sectiunea cosului de cumparaturi ofera un rezumat al produsului selectat - pentru a nu forta clientul sa paraseasca sectiunea de cumparare
 10. Clientul are optiunea adaugarii unui cupon in sectiunea de shopping cart - pentru a incuraja achizitionarea mai multor produse, a oferi o experienta de achizitie completa pe care o poate gasi la competitie. 
 
-In urma functionalitatilor de mai sus s-au definit urmatoarele conditii de testare:
+#### In urma functionalitatilor de mai sus s-au definit urmatoarele conditii de testare:
 
 Checking if all fields can be successfully filled according to the specifications without creating user login
 
