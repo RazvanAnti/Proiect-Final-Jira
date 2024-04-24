@@ -3,13 +3,13 @@
 
 # 1. Sectiunea de testare, aspecte de business si management
 
- Scopul proiectului al cursului de Testare Manuala si Automata este utilizarea tuturor cunostintelor tehnice dobandite de-a lungul cursului si utilizarea lor in cazuri practice, intalnite in activitatea de zi cu zi.
+Scopul proiectului al cursului de Testare Manuala si Automata este utilizarea tuturor cunostintelor tehnice dobandite de-a lungul cursului si utilizarea lor in cazuri practice, intalnite in activitatea de zi cu zi.
 
 * Site testat: [OpenCart](https://docs.opencart.com/en-gb/introduction/)
 
 * Documentatia API: [OpenCart.API](https://docs.opencart.com/en-gb/system/users/api/)
 
-Proiectul prezinta 11 puncte principale, acestea facand referire la planul de testare, obiective si aspecte de business/management, dar si afisarea, respectiv analizarea tehnicilor de testare, bug-urilor, story-urilor din Jira.
+Proiectul prezinta 3 sectiuni principale, acestea facand referire la planul de testare, obiective si aspecte de business/management, dar si afisarea, respectiv analizarea tehnicilor de testare, bug-urilor, story-urilor din Jira.
 
 Tehnologii utilizate: Jira, Zephyr. Pentru utilizarea platformei Jira s-a folosit contul ItFactory. De asemenea, a fost necesara si instalarea plug-in-ului Zephyr prin logarea ca Administrator, accesarea meniului Jira si selectarea optiunii Apps, Find New Apps, s-a cautat Zephyr for Jira si s-a accesat rezultatul cautarii. Apoi s-a instalat plug-in-ul. De asemenea, proiectul in cauza s-a folosit si de documentatia API a website-ului, link-ul fiind furnizat mai sus.             
 
@@ -19,7 +19,7 @@ Ca specificatii funtionale in Jira, s-au utilizat urmatoarele: Issue tracking, w
 
 * Ca principal epic avem: Store Front Module: modul care consta in interfata cu care clientul interactioneaza cu magazinul. Modulul cuprinde 7 story-uri: The header. The top menu. Slideshow. Footer. Product pages. Product compare. Shopping cart page.
 
-Exenplu de story creat in scopul proiectului: 'Shopping Cart PAge'
+Exemplu de story creat in scopul proiectului: 'Shopping Cart PAge'
 ![image](https://github.com/RazvanAnti/Proiect-Final-Jira/assets/165046399/113f1570-24f9-4080-b20f-8445978c864b)
 
 * Pentru a putea urmari story-urile in dataliu: [PDF.Stories](https://github.com/RazvanAnti/Proiect-Final-Jira/blob/main/Stories.pdf)
@@ -50,19 +50,22 @@ Planul identifica sectiunile si itemii de testare, functionalitatile de tipurile
 
 Dat fiind domeniul de activitate al clientului, este important ca platforma sa faciliteze o experienta placuta si intuitiva de utilizare, o performanta sporita, dar si securitate si functionalitati disponibile.
 
-#### Experiența Utilizatorului:
+#### Experienta Utilizatorului
 - Interfață intuitivă și ușor de navigat.
 - Design responsiv pentru compatibilitate cu diverse dispozitive și dimensiuni de ecrane.
 - Timp de încărcare rapid pentru a menține interesul utilizatorilor.
 
+#### Conținut și Accesibilitate
+- Conținut bine structurat, clar și concis.
+- Suport pentru multiple limbi și opțiuni de traducere.
 
-- Trecerea tuturor smoke testurilor (acest simplu test de testare ne va putea ajuta la stabilirea starii generale a site-ului in vederea conturarii unui plan agile de testare).
-- Definirea cerintelor software minime:
-a. Incarcarea website-ului pe un server web. In cazul in care clientul nu dispune deja de un domeniu sau cont de web hosting, acestea pot fi achizitionate la preturi accesibile.
-b. Se recomanda achizitionarea serverului Apache. Va fi nevoie de o baza de date care sa suporte MySQLi, PDO sau PostSQL, desi este recomandat MySQLi.
-c. Urmatoaerle librarii PHP trebuiesc instalate in configuratia PHP: PHP 8.0 sau o versiune mai noua, Curl, GD Library, Iconv, Mbstring, Open SSL, Encrypt, ZipArchive, Zlib.
-d. Urmatoarele setari trebuie activate: file_uploads, magic_quotes_gpc, register_globals, session_auto_start.
-- mediul de testare este activ si functional.
+#### Performanta
+- Timp de răspuns scăzut al serverului pentru a asigura încărcarea rapidă a paginilor.
+- Optimizare a imaginilor și a codului pentru a reduce dimensiunea paginilor și a timpilor de încărcare.
+
+#### Securitate
+- Implementarea protocoalelor de securitate pentru a proteja datele utilizatorilor și informațiile tranzacțiilor.
+
 
 ### Definirea criteriilor de iesire
 - 75% dintre teste vor trece, avand statusul "Passed"
@@ -82,7 +85,7 @@ Testarea automata este de asemenea in afara domeniului de aplicare.
 
 <b>Riscurile de proiect</b>:
 
-Riscurile de proiect care pot apare ain general intr-un proiect de testar software pot sa fie, de exemplu, urmatoarele:
+Riscurile de proiect care pot aparea in general intr-un proiect de testare software pot sa fie, de exemplu, urmatoarele:
 
 - Resursele insuficiente se refera fie la lipsa de personal si de timp in vederea realizarii testarii in profunzime/tuturor defectelor.
 - Stabilirea unui program neclar sau instabil reprezinta un risc asociat tehnicii agile. Un risc probabil mai ales in cazul unor termene limita stranse, care pot veni in completarea la numeroase schimbari in cerinte (testare incompleta sau chiar superficiala).
@@ -100,9 +103,26 @@ Specific proiectului pe care l-am realizat, am identificat urmatoarele riscuri d
 
 Urmatoarele criterii de intrare au fost definite in scopul inceperii proiectului de testare curent:
 
-???
+#### Experienta Utilizatorului
+- Interfață intuitivă și ușor de navigat: Documentația OpenCart are o structură clară și meniuri bine organizate, facilitând navigarea și găsirea informațiilor.
+- Design responsiv: Site-ul OpenCart pare să ofere un design responsiv, adaptându-se la diferite dimensiuni de ecrane.
+- Timp de încărcare rapid: Site-ul se încarcă relativ rapid, oferind o experiență plăcută de navigare.
 
-In urma implementarii planului de testare, criteriile de intrare au fost atinse, iar procesul poate continua, el putandu-se modifica datorita abordarii de tip agile. 
+#### Continut si Accesibilitate
+
+- Conținut bine structurat: Documentația OpenCart este organizată într-un mod clar, cu informații bine structurate și ușor de parcurs.
+- Accesibilitate: Deși nu există informații specifice despre accesibilitate, ar putea exista oportunități de îmbunătățire în acest domeniu.
+
+#### Performanta
+
+- Timp de răspuns scăzut al serverului: Accesul la documentație este rapid și nu există întârzieri semnificative în încărcarea paginilor.
+- Optimizare a imaginilor și codului: Documentația pare să fie optimizată pentru a reduce dimensiunea paginilor și a timpilor de încărcare.
+
+#### Securitate
+
+- Actualizări regulate: OpenCart este o platformă activă, iar actualizările regulare sunt disponibile pentru a remedia vulnerabilitățile de securitate.
+
+#### In urma implementarii planului de testare, criteriile de intrare au fost atinse, iar procesul poate continua, el putandu-se modifica datorita abordarii de tip agile. 
 
 ## 2.2 Monitorizare si control
 
@@ -133,15 +153,15 @@ Mai jos se pot regasi functionalitatile care au fost extrase pentru testare:
 
 In urma functionalitatilor de mai sus s-au definit urmatoarele conditii de testare:
 
-The shopping cart gives an overview of the product selected
-Company telephone number is displayed in the header
-The top menu is succesfully displayed on every page
-The product page contains Rating section
+Checking if all fields can be successfully filled according to the specifications without creating user login
+Checking if all fields can be successfully filled according to the specifications and also create user login
+We're verifying if that by clicking on the logo, we're successfully redirecting the client back to the home page
+Changing the currency of the store products from the currency button
 The customer has an option to add a coupon code in the Shopping Cart
-The "Continue Shopping" button from the Shopping Cart links back to the homepage
-When a parent category is clicked the category page successfully oppens and displays all the products within that category
-Links the customer to the Wish List
-Links the customer to My Account
+Verifying if the shopping cart displays the number of items purchased and the total price of the order
+Testing if the Shopping cart button will contain all the products added to the cart
+Verifying if that by clicking on the Shopping Cart button, both "View Cart" or "Checkout" will appear
+
 
 ## 2.4 Test Design
 
@@ -210,7 +230,7 @@ Story: Shopping Cart Page --> Links the customer to the Shopping Cart, Links the
  0 severitate ridicată, 7 medie, 3 redusă
 
 
-## 3. Concluzie: 
+## 3. Concluzie
 In urma analizei defectelor, nu există bug-uri care pot duce la riscul unui impact ridicat în ceea ce privește imaginea de brand, decizia de cumpărare sau pierderea de clienți.
 
 Totuși, există bug-uri care îngreunează experiența de utilizare a clientului final, interacțiunea cu produsele. Impact de natură UI/UX conține 7 bug-uri cu severitate medie, 6 dintre acestea având un grad mediu de prioritate, 1 prioritate redusă.
@@ -219,11 +239,17 @@ Impactul cel mai redus s-a regăsit la aspecte precum imagini poziționate incor
 
 ![image](https://github.com/RazvanAnti/Proiect-Final-Jira/assets/165046399/92b0e0df-ec0d-478c-9c3b-ee9b693acf27)
 
-Riscurile de produs: 
-Posibilitatea existentei unor defecte nedeclarate anterior: mai exact neidentificarea unor defecte cu un grad sporit de importanta, defecte care pot impacta consistent nivelul de calitate al produsului. Interfata de utilizator necorespunzatoare: Ui contraintuitiv. Performantele slabe in ceea ce priveste timpii de incarcare sa raspunsurile foarte intarziate la comenzi. Riscurile de securitate vor aparea mai ales atunci cand atacurile cibernetice vizeaza website-ul clientului. Fiabilitatea redusa a aplicatiei, riscul de crush frecvent.
+Luam totodata in calcul si o serie de riscuri de produs, asociate domeniului in careclientul isi desfasoara activitatea. Dintre acestea amintim riscurile de produs care sunt in stransa legatura legate de proiectul de testare in cauza. Aceasta analiza a riscurilor de produs vine in intampinarea unor viitoare strategii de dezvoltare.
 
-Specific produsului:
-* Furtul datelor de carduri de credit din cauza unei vulnerabilități de securitate în sistemul de procesare a plăților.
-* O rată mare de abandon a site-ului din cauza unui timp de încărcare prelungit al paginilor de produs.
-* Implementarea unei funcționalități care nu corespunde cu ceea ce și-a imaginat clientul din cauza unei comunicări neclare.
-* Un serviciu de livrare întârzie livrarea comenzilor din cauza unor probleme tehnice la nivelul infrastructurii lor.
+- Posibilitatea existentei unor defecte nedeclarate anterior: mai exact neidentificarea unor defecte cu un grad sporit de importanta, defecte care pot impacta consistent nivelul de calitate al produsului.
+- Alte riscuri de securitate care vor aparea mai ales atunci cand atacurile cibernetice vizeaza website-ul clientului.
+- Fiabilitatea redusa a aplicatiei, riscul de crush frecvent, mai ales in perioadele in care exista cerere mare pe piata.
+
+Specific produsului, intalnim riscuri de produs precum:
+
+- Furtul datelor de carduri de credit din cauza unei vulnerabilități de securitate în sistemul de procesare a plăților.
+- O rată mare de abandon a site-ului din cauza unui timp de încărcare prelungit al paginilor de produs.
+- Implementarea unei funcționalități care nu corespunde cu ceea ce și-a imaginat clientul din cauza unei comunicări neclare.
+- Un serviciu de livrare întârzie livrarea comenzilor din cauza unor probleme tehnice la nivelul infrastructurii lor.
+
+Se recomanda analiza riscurilor de produs si includerea lor intr-un plan de dezvoltare ulterior. Prezentarea acestora unei echipe de testare capabila sa minimizeze sau chiar sa le elimine.
