@@ -174,9 +174,10 @@ Verifying if that by clicking on the Shopping Cart button, both "View Cart" or "
 
 Test case-urile pentru website au fost create folosind Zephyr Squad. In urma analizei specificatiilor tehnice, designului de testare a acoperit test case-uri pentru modulul Store Front.
 
-Modulul Store Front este parinte pentru o serie de 36 de teste, acestea avand prioritate medie:
+Modulul Store Front este parinte pentru o serie de 36 de teste, acestea avand prioritate medie. 
 
-Epicul, story-urile, test case-urile, bug-urile pot fi accesate in sectiunea de [aici](https://github.com/RazvanAnti/Proiect-Final-Jira/blob/aefdd2dda119b72bb1a4c18d35c21fa235b2ad76/Test%20cases.pdf)
+Test case-urile menționate verifică funcționalitățile esențiale ale site-ului OpenCart, inclusiv completarea datelor, crearea de conturi, redirecționarea către pagina principală, schimbarea valutei, utilizarea cupoanelor de reducere, afișarea informațiilor în coșul de cumpărături și funcționalitatea butonului de coș de cumpărături.
+
 
  ## 2.5 Test Implementation
 
@@ -194,7 +195,7 @@ Adaugarea unor sub-task-uri aferente test case-urilor acolo unde va fi necesar.
 
 ## 2.6 Test Execution
 
-Test case-urile au fost executate prin Zephyr Squad si pot fi analizate: [Test Cases](https://github.com/RazvanAnti/Proiect-Final-Jira/blob/main/Test%20cases.pdf)
+Test case-urile au fost executate prin Zephyr Squad si pot fi analizate: [Test Cases](https://github.com/RazvanAnti/Proiect-Final-Jira/blob/main/test%20case%20final.pdf)
 
 Bug-urile generate in urma executarii testelor: [Bugs](https://github.com/RazvanAnti/Proiect-Final-Jira/blob/main/Bugs.pdf)
 
