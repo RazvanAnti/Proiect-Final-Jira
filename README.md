@@ -154,12 +154,19 @@ Mai jos se pot regasi functionalitatile care au fost extrase pentru testare:
 In urma functionalitatilor de mai sus s-au definit urmatoarele conditii de testare:
 
 Checking if all fields can be successfully filled according to the specifications without creating user login
+
 Checking if all fields can be successfully filled according to the specifications and also create user login
+
 We're verifying if that by clicking on the logo, we're successfully redirecting the client back to the home page
+
 Changing the currency of the store products from the currency button
+
 The customer has an option to add a coupon code in the Shopping Cart
+
 Verifying if the shopping cart displays the number of items purchased and the total price of the order
+
 Testing if the Shopping cart button will contain all the products added to the cart
+
 Verifying if that by clicking on the Shopping Cart button, both "View Cart" or "Checkout" will appear
 
 
