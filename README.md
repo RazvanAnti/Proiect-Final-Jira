@@ -48,6 +48,14 @@ Planul identifica sectiunile si itemii de testare, functionalitatile de tipurile
 
 ### Definirea criteriilor de intrare
 
+Dat fiind domeniul de activitate al clientului, este important ca platforma sa faciliteze o experienta placuta si intuitiva de utilizare, o performanta sporita, dar si securitate si functionalitati disponibile.
+
+#### Experiența Utilizatorului:
+- Interfață intuitivă și ușor de navigat.
+- Design responsiv pentru compatibilitate cu diverse dispozitive și dimensiuni de ecrane.
+- Timp de încărcare rapid pentru a menține interesul utilizatorilor.
+
+
 - Trecerea tuturor smoke testurilor (acest simplu test de testare ne va putea ajuta la stabilirea starii generale a site-ului in vederea conturarii unui plan agile de testare).
 - Definirea cerintelor software minime:
 a. Incarcarea website-ului pe un server web. In cazul in care clientul nu dispune deja de un domeniu sau cont de web hosting, acestea pot fi achizitionate la preturi accesibile.
