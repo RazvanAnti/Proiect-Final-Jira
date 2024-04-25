@@ -50,21 +50,17 @@ Planul identifica sectiunile si itemii de testare, functionalitatile de tipurile
 
 Dat fiind domeniul de activitate al clientului, este important ca platforma sa faciliteze o experienta placuta si intuitiva de utilizare, o performanta sporita, dar si securitate si functionalitati disponibile.
 
-#### Experienta Utilizatorului
-- Interfață intuitivă și ușor de navigat.
-- Design responsiv pentru compatibilitate cu diverse dispozitive și dimensiuni de ecrane.
-- Timp de încărcare rapid pentru a menține interesul utilizatorilor.
+#### Impartirea de roluri in cadrul echipe de testare
 
-#### Conținut și Accesibilitate
-- Conținut bine structurat, clar și concis.
-- Suport pentru multiple limbi și opțiuni de traducere.
+#### Definire si finalizare plan de testare
 
-#### Performanta
-- Timp de răspuns scăzut al serverului pentru a asigura încărcarea rapidă a paginilor.
-- Optimizare a imaginilor și a codului pentru a reduce dimensiunea paginilor și a timpilor de încărcare.
+#### Identificare cerinte de business
 
-#### Securitate
-- Implementarea protocoalelor de securitate pentru a proteja datele utilizatorilor și informațiile tranzacțiilor.
+#### Identificare si dezvoltare riscuri de proiect
+
+- Întârzierea lansării website-ului din cauza unor neclarități în specificațiile cerințelor.
+- Lipsa de claritate în cerințe poate determina echipa de dezvoltare să implementeze o funcționalitate diferită de ceea ce și-a imaginat clientul.
+- O prelungire a timpului de lansare din cauza întârzierilor în implementarea unui sistem de procesare a plăților de către un furnizor terț.
 
 
 ### Definirea criteriilor de iesire
@@ -100,27 +96,6 @@ Specific proiectului pe care l-am realizat, am identificat urmatoarele riscuri d
 
 
 ### Evaluarea criteriilor de intrare
-
-Urmatoarele criterii de intrare au fost definite in scopul inceperii proiectului de testare curent:
-
-#### Experienta Utilizatorului
-- Interfață intuitivă și ușor de navigat: Documentația OpenCart are o structură clară și meniuri bine organizate, facilitând navigarea și găsirea informațiilor.
-- Design responsiv: Site-ul OpenCart pare să ofere un design responsiv, adaptându-se la diferite dimensiuni de ecrane.
-- Timp de încărcare rapid: Site-ul se încarcă relativ rapid, oferind o experiență plăcută de navigare.
-
-#### Continut si Accesibilitate
-
-- Conținut bine structurat: Documentația OpenCart este organizată într-un mod clar, cu informații bine structurate și ușor de parcurs.
-- Accesibilitate: Deși nu există informații specifice despre accesibilitate, ar putea exista oportunități de îmbunătățire în acest domeniu.
-
-#### Performanta
-
-- Timp de răspuns scăzut al serverului: Accesul la documentație este rapid și nu există întârzieri semnificative în încărcarea paginilor.
-- Optimizare a imaginilor și codului: Documentația pare să fie optimizată pentru a reduce dimensiunea paginilor și a timpilor de încărcare.
-
-#### Securitate
-
-- Actualizări regulate: OpenCart este o platformă activă, iar actualizările regulare sunt disponibile pentru a remedia vulnerabilitățile de securitate.
 
 #### In urma implementarii planului de testare, criteriile de intrare au fost atinse, iar procesul poate continua, el putandu-se modifica datorita abordarii de tip agile. 
 
