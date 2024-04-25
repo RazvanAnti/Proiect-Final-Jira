@@ -193,7 +193,7 @@ Criteriile de iesire au fost evaluate si adaptate in functie de modificarile ult
 
 * Matricea trasabiliatii a fost generata:
 
-![image](![image](https://github.com/RazvanAnti/Proiect-Final-Jira/assets/165046399/ff9bc147-7698-4916-8f3d-ad87fa535102)
+(![image](https://github.com/RazvanAnti/Proiect-Final-Jira/assets/165046399/ff9bc147-7698-4916-8f3d-ad87fa535102)
 
 
 * Test execution chart a fost generat pentru versiunea 3.0.2.0, iar acesta indica un pass rate de 75% (27 teste) dintr-un total de 36 de teste. Dintre acestea, 9 au statusul Fail.
